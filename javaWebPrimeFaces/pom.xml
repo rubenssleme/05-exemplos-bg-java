@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.com.bg</groupId>
-	<artifactId>blue-leme</artifactId>
+	<artifactId>web-blue-leme</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 
@@ -62,5 +62,5 @@
 			<layout>default</layout>
 		</repository>
 	</repositories>
-
+    <name>WebBlue</name>
 </project>
