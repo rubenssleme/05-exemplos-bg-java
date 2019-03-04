@@ -23,7 +23,7 @@
 	padding: 10px 15px;
 	
 	text-decoration: none;
-	font-weight: 500;
+	font-weight: 1000;
 	color: #373737;
 } 
 
@@ -42,7 +42,7 @@
 
 .aw-menu > ul .is-selected a {
 	margin-left: -3px;
-	color: #1e94d2;
+	color: #14cec7;
 }
 
 /* PAGE-TITLE */

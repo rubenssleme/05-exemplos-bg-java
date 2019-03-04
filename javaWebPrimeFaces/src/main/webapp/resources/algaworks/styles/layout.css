@@ -7,7 +7,7 @@
 	min-height: 50px;
 	z-index: 9999;
 	
-	background-color: #1e94d2;
+	background-color: #39c1c0;
 }
 
 .aw-topbar > img {
@@ -27,15 +27,13 @@
 	transition: margin-left 0.5s;
 	overflow-y: auto;
 	
-	background-color: #f6f6f6;
-	border-right: 1px solid #eaeaea;
+	background-color: #e0f3f1;
+	border-right: 1px solid #20c3be;
 }
 
 .aw-sidebar.is-toggled {
 	margin-left: 0px;
 }
-
-
 
 @media (min-width: 960px) {
 	.aw-sidebar {
