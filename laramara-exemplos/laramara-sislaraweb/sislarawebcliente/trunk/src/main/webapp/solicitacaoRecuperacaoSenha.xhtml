@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<ui:include src="template/android.xhtml" />
+	<f:facet name="first">
+		<title>SisLaraWEB - Solicitação de email de recuperação de
+			senha</title>
+	</f:facet>
+</h:head>
+<h:body>
+	<h:form prependId="false">
+		<p:panel id="painel-solicitacao-recuperacao-senha" header="Solicitacao de alteração ou recuperação de senha" styleClass="ui-fluid">
+		<p:focus context="painel-solicitacao-recuperacao-senha"
+						rendered="#{facesContext.validationFailed}" />
+						
+			<p:messages id="mensagem">
+				<p:autoUpdate />
+			</p:messages>
+			<h:outputText />
+			<h:panelGrid id="grid" columns="1" columnClasses="label" style="width:100%">
+				<h:outputLabel for="email" value="Email:" />
+				<p:inputText id="email" type="email" 
+					value="#{controladorSolicitacaoRecuperacaoSenha.email}" required="true">
+				</p:inputText>
+			</h:panelGrid>
+			<p:button outcome="login" value="Voltar" icon="ui-icon-locked" />
+			<p:commandButton id="botaoSolicitar"
+				value="Solicitar alteração de senha" update="painel-solicitacao-recuperacao-senha"
+				actionListener="#{controladorSolicitacaoRecuperacaoSenha.solicitar}"
+				icon="ui-icon-check" validateClient="true"
+				style="background:#5799C9;color:#fff;">
+			</p:commandButton>
+		</p:panel>
+	</h:form>
+</h:body>
+</html>

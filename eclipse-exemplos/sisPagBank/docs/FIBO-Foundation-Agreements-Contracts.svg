@@ -1,0 +1,5545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="504mm"
+   height="343mm"
+   version="1.1"
+   viewBox="0 0 1907 1298"
+   id="svg1536"
+   sodipodi:docname="FIBO Foundation Agreements - Contracts.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata1542">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1540" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     id="namedview1538"
+     showgrid="false"
+     inkscape:snap-center="true"
+     inkscape:zoom="0.74669582"
+     inkscape:cx="952.44094"
+     inkscape:cy="648.18898"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1536" />
+  <script
+     xlink:href="../library/sybase.modeling.reporting.data.js"
+     id="script2"
+     type="text/javascript" />
+  <script
+     id="script4"><![CDATA[window.document.jdata.contentBase = "../content/";function resolve(e,n){var svg=e.target.ownerDocument;var a=svg.getElementById(n);if(a && !a.r && n.indexOf("#")==0){a.r=true;svg.jdata.fetch("464E2152-B2E3-467F-8F0C-1FDF3DB93047.navigation",function(mnav){var d=mnav && n.indexOf("#")==0 && mnav[n.substring("#".length)];if (d && d.length>0){if(d[0].Diagram){n="#"+d[0].Diagram.id;}}svg.jdata.resolve(n,function(cid,aid,p){if(cid && aid){var href="../index.html#";href+="n="+cid;href+="&a="+aid;if(p>1)href+="&p="+p;a.setAttributeNS("http://www.w3.org/1999/xlink","href",href);}});});}}]]></script>
+  <a
+     target="_parent"
+     id="#2C38D3E3-DA4C-4762-AC67-C12C890EBAF2"
+     onmouseover="resolve(evt, '#2C38D3E3-DA4C-4762-AC67-C12C890EBAF2')">
+    <path
+       d="M351,250 L351,236 A8,8 0 0,0 343,228 L169,228 A8,8 0 0,1 161,220 L161,199"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path6" />
+    <polygon
+       fill="#800000"
+       points="161,199 164,212 158,212"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon8" />
+    <text
+       x="255"
+       y="231"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text10">Contract subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#197DFE4B-F769-4471-B5C6-E4FAE2ECEF2D"
+     onmouseover="resolve(evt, '#197DFE4B-F769-4471-B5C6-E4FAE2ECEF2D')">
+    <polyline
+       fill="none"
+       points="1782,524 1782,484"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline13" />
+    <polygon
+       fill="#800000"
+       points="1782,484 1785,497 1779,497"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon15" />
+    <text
+       x="1782"
+       y="507"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text17">Contract Counterparty subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#C578BA64-00BF-425E-A15B-A339F4829EE5"
+     onmouseover="resolve(evt, '#C578BA64-00BF-425E-A15B-A339F4829EE5')">
+    <polyline
+       fill="none"
+       points="1475,392 1475,344"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline20" />
+    <polygon
+       fill="#800000"
+       points="1475,344 1478,358 1472,358"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon22" />
+    <text
+       x="1475"
+       y="371"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text24">Contract Party subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#42D7C875-C7F1-4400-A70E-79337542D62C"
+     onmouseover="resolve(evt, '#42D7C875-C7F1-4400-A70E-79337542D62C')">
+    <polyline
+       fill="none"
+       points="1527,524 1527,484"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline27" />
+    <polygon
+       fill="#800000"
+       points="1527,484 1530,497 1524,497"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon29" />
+    <text
+       x="1527"
+       y="507"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text31">Contract Principal subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#CF9B5BF4-A4D4-4A93-A31A-4D89A6BB70F9"
+     onmouseover="resolve(evt, '#CF9B5BF4-A4D4-4A93-A31A-4D89A6BB70F9')">
+    <path
+       d="M400,924 L396,924 A4,4 0 0,1 392,920 L392,876"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path34" />
+    <polygon
+       fill="#800000"
+       points="392,876 395,890 389,890"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon36" />
+    <text
+       x="392"
+       y="934"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text38">Contract Terms Set subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#F3B3F8A4-6660-46C9-B1E3-809F5F77C450"
+     onmouseover="resolve(evt, '#F3B3F8A4-6660-46C9-B1E3-809F5F77C450')">
+    <polyline
+       fill="none"
+       points="818,920 818,887"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline41" />
+    <polygon
+       fill="#800000"
+       points="818,887 821,900 815,900"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon43" />
+    <text
+       x="818"
+       y="906"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text45">Contractual Commitment subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#6F3D54B2-1228-4CF2-A858-E7E13C9E0B4C"
+     onmouseover="resolve(evt, '#6F3D54B2-1228-4CF2-A858-E7E13C9E0B4C')">
+    <path
+       d="M377,737 L377,730 A7,7 0 0,0 370,723 L171,723 A8,8 0 0,1 163,715 L163,699"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path48" />
+    <polygon
+       fill="#800000"
+       points="163,699 166,712 160,712"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon50" />
+    <text
+       x="270"
+       y="733"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text52">Contractual Element subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B4B5EB6B-A0AF-4444-BCCE-67205A12E4E4"
+     onmouseover="resolve(evt, '#B4B5EB6B-A0AF-4444-BCCE-67205A12E4E4')">
+    <polyline
+       fill="none"
+       points="346,389 346,348"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline55" />
+    <polygon
+       fill="#800000"
+       points="346,348 349,361 343,361"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon57" />
+    <text
+       x="346"
+       y="372"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text59">Unilateral Contract subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#BD1E36C8-2EEF-461C-9C40-678C381B56EF"
+     onmouseover="resolve(evt, '#BD1E36C8-2EEF-461C-9C40-678C381B56EF')">
+    <polyline
+       fill="none"
+       points="199,389 199,351"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline62" />
+    <polygon
+       fill="#800000"
+       points="199,351 202,364 196,364"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon64" />
+    <text
+       x="199"
+       y="373"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text66">Written Contract subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#4C1B6154-AFD8-4085-82E1-944ABF55BF4E"
+     onmouseover="resolve(evt, '#4C1B6154-AFD8-4085-82E1-944ABF55BF4E')">
+    <polyline
+       fill="none"
+       points="1107,632 1107,604"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline69" />
+    <polygon
+       fill="#800000"
+       points="1107,604 1110,617 1104,617"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon71" />
+    <text
+       x="1107"
+       y="620"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text73">has Contract Party subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#2E297788-9F07-445D-9E54-EEC1F66A520A"
+     onmouseover="resolve(evt, '#2E297788-9F07-445D-9E54-EEC1F66A520A')">
+    <polyline
+       fill="none"
+       points="161,1206 161,1182"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline76" />
+    <polygon
+       fill="#800000"
+       points="161,1182 164,1196 158,1196"
+       stroke="#800000"
+       stroke-width="1"
+       stroke-linejoin="miter"
+       id="polygon78" />
+    <text
+       x="161"
+       y="1197"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text80">has Contractual Element subtype</text>
+  </a>
+  <a
+     target="_parent"
+     id="#7052430D-34B3-405B-AE2E-109B7E32B9AA"
+     onmouseover="resolve(evt, '#7052430D-34B3-405B-AE2E-109B7E32B9AA')">
+    <path
+       d="M381,348 L381,521 A8,8 0 0,1 373,529 L337,529"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path83" />
+    <ellipse
+       cx="381"
+       cy="358"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse85" />
+    <polyline
+       fill="none"
+       points="324,519 351,529 324,538 324,519"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline87" />
+    <ellipse
+       cx="354"
+       cy="528"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse89" />
+    <text
+       x="381"
+       y="505"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text91">Unilateral Contract confers</text>
+  </a>
+  <a
+     target="_parent"
+     id="#257E7EC9-297B-40E8-9EF3-0FD5614C9FB5"
+     onmouseover="resolve(evt, '#257E7EC9-297B-40E8-9EF3-0FD5614C9FB5')">
+    <path
+       d="M177,183 L1034,183 A8,8 0 0,1 1042,191 L1042,533"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path94" />
+    <ellipse
+       cx="187"
+       cy="183"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse96" />
+    <polyline
+       fill="none"
+       points="1033,546 1042,520 1051,546 1033,546"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline98" />
+    <polyline
+       fill="none"
+       points="1048,520 1037,520"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline100" />
+    <text
+       x="1042"
+       y="179"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text102">Contract has Contract Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#DDE81C2A-6ED1-4848-A2E5-444F2A3A6749"
+     onmouseover="resolve(evt, '#DDE81C2A-6ED1-4848-A2E5-444F2A3A6749')">
+    <polyline
+       fill="none"
+       points="85,199 85,1055"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline105" />
+    <ellipse
+       cx="85"
+       cy="209"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse107" />
+    <polyline
+       fill="none"
+       points="76,1068 85,1042 95,1068 76,1068"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline109" />
+    <polyline
+       fill="none"
+       points="91,1042 80,1042"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline111" />
+    <text
+       x="85"
+       y="630"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text113">Contract has Contractual Element</text>
+  </a>
+  <a
+     target="_parent"
+     id="#82AC29A4-F8BB-426E-80CB-FC79DEEE6E10"
+     onmouseover="resolve(evt, '#82AC29A4-F8BB-426E-80CB-FC79DEEE6E10')">
+    <path
+       d="M177,130 L587,130 A8,8 0 0,0 595,122 L595,64"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path116" />
+    <ellipse
+       cx="187"
+       cy="130"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse118" />
+    <polyline
+       fill="none"
+       points="590,78 601,78"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline120" />
+    <text
+       x="595"
+       y="141"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text122">Contract has Effective Date</text>
+  </a>
+  <a
+     target="_parent"
+     id="#75C54189-2E2B-4302-8752-A6EE78C99EA0"
+     onmouseover="resolve(evt, '#75C54189-2E2B-4302-8752-A6EE78C99EA0')">
+    <path
+       d="M177,153 L1024,153 A8,8 0 0,0 1032,145 L1032,64"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path125" />
+    <ellipse
+       cx="187"
+       cy="152"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse127" />
+    <polyline
+       fill="none"
+       points="1041,51 1032,78 1023,51 1041,51"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline129" />
+    <ellipse
+       cx="1031"
+       cy="81"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse131" />
+    <text
+       x="1032"
+       y="163"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text133">Contract has Execution Date</text>
+  </a>
+  <a
+     target="_parent"
+     id="#20B31D2B-1C2B-41DA-8EB3-96C032DC2681"
+     onmouseover="resolve(evt, '#20B31D2B-1C2B-41DA-8EB3-96C032DC2681')">
+    <path
+       d="M458,823 L458,799 A8,8 0 0,1 466,791 L544,791"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path136" />
+    <ellipse
+       cx="458"
+       cy="812"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse138" />
+    <polyline
+       fill="none"
+       points="557,800 531,791 557,781 557,800"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline140" />
+    <ellipse
+       cx="527"
+       cy="790"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse142" />
+    <text
+       x="458"
+       y="794"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text144">Contract Terms Set has Part</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B6A0BAB9-04A0-48F9-AA55-CD4981BC9D29"
+     onmouseover="resolve(evt, '#B6A0BAB9-04A0-48F9-AA55-CD4981BC9D29')">
+    <path
+       d="M813,834 L813,804 A8,8 0 0,0 805,796 L658,796"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path147" />
+    <ellipse
+       cx="813"
+       cy="822"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse149" />
+    <polyline
+       fill="none"
+       points="645,786 671,796 645,805 645,786"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline151" />
+    <ellipse
+       cx="674"
+       cy="795"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse153" />
+    <text
+       x="813"
+       y="798"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text155">Contractual Commitment has Part</text>
+  </a>
+  <a
+     target="_parent"
+     id="#AF07026F-6695-4BDE-BBBC-57A00169E010"
+     onmouseover="resolve(evt, '#AF07026F-6695-4BDE-BBBC-57A00169E010')">
+    <path
+       d="M1349,484 L1349,583 A8,8 0 0,1 1341,591 L1184,591"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path158" />
+    <ellipse
+       cx="1348"
+       cy="494"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse160" />
+    <polyline
+       fill="none"
+       points="1171,581 1197,591 1171,600 1171,581"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline162" />
+    <ellipse
+       cx="1200"
+       cy="590"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse164" />
+    <text
+       x="1349"
+       y="594"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text166">has Contract Party OTC Transaction Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#69C3DB0B-1A61-407A-80A6-F6ACB80F4C64"
+     onmouseover="resolve(evt, '#69C3DB0B-1A61-407A-80A6-F6ACB80F4C64')">
+    <path
+       d="M1791,212 L1137,212 A8,8 0 0,0 1129,220 L1129,533"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path169" />
+    <ellipse
+       cx="1780"
+       cy="211"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse171" />
+    <polyline
+       fill="none"
+       points="1120,546 1129,520 1138,546 1120,546"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline173" />
+    <ellipse
+       cx="1129"
+       cy="516"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse175" />
+    <text
+       x="1129"
+       y="207"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text177">has Contract Party Swap Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#2890B150-48A6-4020-97BE-DD440D02A6F6"
+     onmouseover="resolve(evt, '#2890B150-48A6-4020-97BE-DD440D02A6F6')">
+    <path
+       d="M985,511 L985,544 A8,8 0 0,0 993,552 L1030,552"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path180" />
+    <ellipse
+       cx="984"
+       cy="521"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse182" />
+    <polyline
+       fill="none"
+       points="1043,562 1017,552 1043,543 1043,562"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline184" />
+    <ellipse
+       cx="1013"
+       cy="552"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse186" />
+    <text
+       x="985"
+       y="555"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text188">has Contract Party Creditor</text>
+  </a>
+  <a
+     target="_parent"
+     id="#565B9D8E-2DE6-49B7-97BB-82213BB9A2BA"
+     onmouseover="resolve(evt, '#565B9D8E-2DE6-49B7-97BB-82213BB9A2BA')">
+    <path
+       d="M924,390 L924,577 A8,8 0 0,0 932,585 L1030,585"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path191" />
+    <ellipse
+       cx="924"
+       cy="400"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse193" />
+    <polyline
+       fill="none"
+       points="1043,594 1017,585 1043,575 1043,594"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline195" />
+    <ellipse
+       cx="1013"
+       cy="584"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse197" />
+    <text
+       x="924"
+       y="587"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text199">has Contract Party Debtor</text>
+  </a>
+  <a
+     target="_parent"
+     id="#61E2EA46-CA73-4841-9CD6-326339F5044D"
+     onmouseover="resolve(evt, '#61E2EA46-CA73-4841-9CD6-326339F5044D')">
+    <path
+       d="M1551,272 L1158,272 A8,8 0 0,0 1150,280 L1150,533"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path202" />
+    <ellipse
+       cx="1540"
+       cy="272"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse204" />
+    <polyline
+       fill="none"
+       points="1141,546 1150,520 1159,546 1141,546"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline206" />
+    <ellipse
+       cx="1150"
+       cy="516"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse208" />
+    <text
+       x="1150"
+       y="267"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text210">has Contract Party Account Holder</text>
+  </a>
+  <a
+     target="_parent"
+     id="#3EC48714-6672-49B3-A8B6-838214CEC8F6"
+     onmouseover="resolve(evt, '#3EC48714-6672-49B3-A8B6-838214CEC8F6')">
+    <path
+       d="M1543,157 L1114,157 A8,8 0 0,0 1106,165 L1106,533"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path213" />
+    <ellipse
+       cx="1532"
+       cy="157"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse215" />
+    <polyline
+       fill="none"
+       points="1097,546 1106,520 1116,546 1097,546"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline217" />
+    <ellipse
+       cx="1106"
+       cy="516"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse219" />
+    <text
+       x="1213"
+       y="150"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text221">has Contract Party Account Provider</text>
+  </a>
+  <a
+     target="_parent"
+     id="#EA51914C-78C1-417C-916E-0832758363DC"
+     onmouseover="resolve(evt, '#EA51914C-78C1-417C-916E-0832758363DC')">
+    <path
+       d="M1250,484 L1250,560 A8,8 0 0,1 1242,568 L1184,568"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path224" />
+    <ellipse
+       cx="1250"
+       cy="494"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse226" />
+    <polyline
+       fill="none"
+       points="1171,559 1197,568 1171,578 1171,559"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline228" />
+    <ellipse
+       cx="1200"
+       cy="568"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse230" />
+    <text
+       x="1250"
+       y="571"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text232">has Contract Party Registered Agent</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B28A4D56-9BF1-4553-9FD0-B5DD58B61302"
+     onmouseover="resolve(evt, '#B28A4D56-9BF1-4553-9FD0-B5DD58B61302')">
+    <path
+       d="M1438,318 L1180,318 A8,8 0 0,0 1172,326 L1172,533"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path235" />
+    <ellipse
+       cx="1427"
+       cy="317"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse237" />
+    <polyline
+       fill="none"
+       points="1163,546 1172,520 1182,546 1163,546"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline239" />
+    <ellipse
+       cx="1172"
+       cy="516"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse241" />
+    <text
+       x="1172"
+       y="313"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text243">has Contract Party Contract Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#19D98C58-9A40-444B-85F6-294534F45780"
+     onmouseover="resolve(evt, '#19D98C58-9A40-444B-85F6-294534F45780')">
+    <path
+       d="M1788,107 L1076,107 A8,8 0 0,0 1068,115 L1068,533"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path246" />
+    <ellipse
+       cx="1777"
+       cy="107"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse248" />
+    <polyline
+       fill="none"
+       points="1059,546 1068,520 1078,546 1059,546"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline250" />
+    <ellipse
+       cx="1068"
+       cy="516"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse252" />
+    <text
+       x="1186"
+       y="110"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text254">has Contract Party Service Provider</text>
+  </a>
+  <a
+     target="_parent"
+     id="#C9AF85F1-E573-4AD2-B7DF-374254409744"
+     onmouseover="resolve(evt, '#C9AF85F1-E573-4AD2-B7DF-374254409744')">
+    <path
+       d="M1491,1030 L1491,1126 A8,8 0 0,1 1483,1134 L268,1134"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path257" />
+    <ellipse
+       cx="1490"
+       cy="1040"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse259" />
+    <polyline
+       fill="none"
+       points="254,1124 281,1134 254,1143 254,1124"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline261" />
+    <ellipse
+       cx="284"
+       cy="1133"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse263" />
+    <text
+       x="1491"
+       y="1129"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text265">has Contractual Element Equity Apportionment Terms Set</text>
+  </a>
+  <a
+     target="_parent"
+     id="#640D98EB-8B41-455B-BACA-54FBCB20E2C9"
+     onmouseover="resolve(evt, '#640D98EB-8B41-455B-BACA-54FBCB20E2C9')">
+    <path
+       d="M1094,1019 L1094,1094 A8,8 0 0,1 1086,1102 L268,1102"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path268" />
+    <ellipse
+       cx="1093"
+       cy="1030"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse270" />
+    <polyline
+       fill="none"
+       points="254,1093 281,1102 254,1111 254,1093"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline272" />
+    <ellipse
+       cx="284"
+       cy="1102"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse274" />
+    <text
+       x="1094"
+       y="1105"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text276">has Contractual Element Liability Apportionment Terms Set</text>
+  </a>
+  <a
+     target="_parent"
+     id="#34BEB1C6-269E-4FB6-B055-AC36FE0C8D87"
+     onmouseover="resolve(evt, '#34BEB1C6-269E-4FB6-B055-AC36FE0C8D87')">
+    <path
+       d="M876,1021 L876,1073 A8,8 0 0,1 868,1081 L268,1081"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path279" />
+    <ellipse
+       cx="876"
+       cy="1031"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse281" />
+    <polyline
+       fill="none"
+       points="254,1072 281,1081 254,1090 254,1072"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline283" />
+    <ellipse
+       cx="284"
+       cy="1081"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse285" />
+    <text
+       x="876"
+       y="1076"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text287">has Contractual Element Derivative Transaction Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#AD11AEE5-6DA2-45F0-82F5-1E236EA696D1"
+     onmouseover="resolve(evt, '#AD11AEE5-6DA2-45F0-82F5-1E236EA696D1')">
+    <path
+       d="M741,1243 L741,1158 A8,8 0 0,0 733,1150 L268,1150"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path290" />
+    <ellipse
+       cx="740"
+       cy="1232"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse292" />
+    <polyline
+       fill="none"
+       points="254,1140 281,1150 254,1159 254,1140"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline294" />
+    <ellipse
+       cx="284"
+       cy="1149"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse296" />
+    <text
+       x="741"
+       y="1153"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text298">has Contractual Element Swap Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#960CE3FB-8434-4E4E-AAB8-8CD130D9C265"
+     onmouseover="resolve(evt, '#960CE3FB-8434-4E4E-AAB8-8CD130D9C265')">
+    <path
+       d="M706,1019 L706,1056 A8,8 0 0,1 698,1064 L268,1064"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path301" />
+    <ellipse
+       cx="706"
+       cy="1030"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse303" />
+    <polyline
+       fill="none"
+       points="254,1055 281,1064 254,1073 254,1055"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline305" />
+    <ellipse
+       cx="284"
+       cy="1064"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse307" />
+    <text
+       x="706"
+       y="1067"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text309">has Contractual Element Debt Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#F9915E62-91DF-4429-9BC7-492B175D31B5"
+     onmouseover="resolve(evt, '#F9915E62-91DF-4429-9BC7-492B175D31B5')">
+    <path
+       d="M1287,1023 L1287,1109 A8,8 0 0,1 1279,1117 L268,1117"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path312" />
+    <ellipse
+       cx="1287"
+       cy="1033"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse314" />
+    <polyline
+       fill="none"
+       points="254,1107 281,1117 254,1126 254,1107"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline316" />
+    <ellipse
+       cx="284"
+       cy="1116"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse318" />
+    <text
+       x="1287"
+       y="1112"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text320">has Contractual Element Settlement Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#F4148B78-9297-4E9E-ADD9-689C8A006006"
+     onmouseover="resolve(evt, '#F4148B78-9297-4E9E-ADD9-689C8A006006')">
+    <polyline
+       fill="none"
+       points="129,699 129,1055"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline323" />
+    <ellipse
+       cx="129"
+       cy="709"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse325" />
+    <polyline
+       fill="none"
+       points="120,1068 129,1042 139,1068 120,1068"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline327" />
+    <ellipse
+       cx="129"
+       cy="1038"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse329" />
+    <text
+       x="129"
+       y="880"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text331">has Contractual Element Contractual Element</text>
+  </a>
+  <a
+     target="_parent"
+     id="#DA39C6DC-241F-41CB-B4AE-96CFC0805C32"
+     onmouseover="resolve(evt, '#DA39C6DC-241F-41CB-B4AE-96CFC0805C32')">
+    <path
+       d="M515,1243 L515,1178 A8,8 0 0,0 507,1170 L268,1170"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path334" />
+    <ellipse
+       cx="514"
+       cy="1232"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse336" />
+    <polyline
+       fill="none"
+       points="254,1161 281,1170 254,1179 254,1161"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline338" />
+    <ellipse
+       cx="284"
+       cy="1170"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse340" />
+    <text
+       x="514"
+       y="1173"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text342">has Contractual Element Equity Conversion Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#C068EF7F-FA66-4A4D-BDD0-B7D554474077"
+     onmouseover="resolve(evt, '#C068EF7F-FA66-4A4D-BDD0-B7D554474077')">
+    <path
+       d="M365,1261 L254,1261 A8,8 0 0,1 246,1253 L246,1182"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path345" />
+    <ellipse
+       cx="354"
+       cy="1261"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse347" />
+    <polyline
+       fill="none"
+       points="256,1169 246,1196 237,1169 256,1169"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline349" />
+    <ellipse
+       cx="246"
+       cy="1199"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse351" />
+    <text
+       x="246"
+       y="1271"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text353">has Contractual Element Conversion Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#8C70D1DC-F9A4-4858-90B8-C538C93D61E2"
+     onmouseover="resolve(evt, '#8C70D1DC-F9A4-4858-90B8-C538C93D61E2')">
+    <path
+       d="M1431,765 L1431,707 A8,8 0 0,0 1423,699 L1259,699"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path356" />
+    <ellipse
+       cx="1431"
+       cy="754"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse358" />
+    <polyline
+       fill="none"
+       points="1246,690 1273,699 1246,709 1246,690"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline360" />
+    <ellipse
+       cx="1276"
+       cy="699"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse362" />
+    <text
+       x="1431"
+       y="702"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text364">has Counterparty General Partner</text>
+  </a>
+  <a
+     target="_parent"
+     id="#06537107-4D12-4CEB-B7C0-55A6B6F49141"
+     onmouseover="resolve(evt, '#06537107-4D12-4CEB-B7C0-55A6B6F49141')">
+    <polyline
+       fill="none"
+       points="1251,765 1251,708"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline367" />
+    <ellipse
+       cx="1251"
+       cy="754"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse369" />
+    <polyline
+       fill="none"
+       points="1261,695 1251,722 1242,695 1261,695"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline371" />
+    <ellipse
+       cx="1251"
+       cy="725"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse373" />
+    <text
+       x="1251"
+       y="739"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text375">has Counterparty Limited Partner</text>
+  </a>
+  <a
+     target="_parent"
+     id="#E18744B2-9F1C-4779-8570-0B96AA9A4AED"
+     onmouseover="resolve(evt, '#E18744B2-9F1C-4779-8570-0B96AA9A4AED')">
+    <path
+       d="M1830,631 L1830,674 A8,8 0 0,1 1822,682 L1259,682"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path378" />
+    <ellipse
+       cx="1830"
+       cy="641"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse380" />
+    <polyline
+       fill="none"
+       points="1246,673 1273,682 1246,692 1246,673"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline382" />
+    <ellipse
+       cx="1276"
+       cy="682"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse384" />
+    <text
+       x="1830"
+       y="678"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text386">has Counterparty Policyholder</text>
+  </a>
+  <a
+     target="_parent"
+     id="#D2ACFB95-3A54-4B41-8553-413B340BB823"
+     onmouseover="resolve(evt, '#D2ACFB95-3A54-4B41-8553-413B340BB823')">
+    <polyline
+       fill="none"
+       points="811,44 654,44"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline389" />
+    <ellipse
+       cx="800"
+       cy="44"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse391" />
+    <polyline
+       fill="none"
+       points="641,35 667,44 641,54 641,35"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline393" />
+    <ellipse
+       cx="670"
+       cy="44"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse395" />
+    <text
+       x="732"
+       y="40"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text397">has Effective Date Date</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B9FA974A-1865-4DFE-89EB-FB05DE74FE83"
+     onmouseover="resolve(evt, '#B9FA974A-1865-4DFE-89EB-FB05DE74FE83')">
+    <polyline
+       fill="none"
+       points="875,44 1019,44"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline400" />
+    <ellipse
+       cx="886"
+       cy="44"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse402" />
+    <polyline
+       fill="none"
+       points="1033,54 1006,44 1033,35 1033,54"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline404" />
+    <ellipse
+       cx="1002"
+       cy="44"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse406" />
+    <text
+       x="947"
+       y="40"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text408">has Execution Date Date</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B4E3ED87-54FC-4B25-B2EC-64641251FE66"
+     onmouseover="resolve(evt, '#B4E3ED87-54FC-4B25-B2EC-64641251FE66')">
+    <polyline
+       fill="none"
+       points="1620,819 1620,866"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline411" />
+    <ellipse
+       cx="1619"
+       cy="829"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse413" />
+    <polyline
+       fill="none"
+       points="1611,879 1620,852 1629,879 1611,879"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline415" />
+    <ellipse
+       cx="1619"
+       cy="848"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse417" />
+    <text
+       x="1619"
+       y="845"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text419">has Governing Jurisdiction Jurisdiction</text>
+  </a>
+  <a
+     target="_parent"
+     id="#4A67A218-2D34-473B-B39B-BAE07036452D"
+     onmouseover="resolve(evt, '#4A67A218-2D34-473B-B39B-BAE07036452D')">
+    <polyline
+       fill="none"
+       points="1801,819 1801,866"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline422" />
+    <ellipse
+       cx="1801"
+       cy="829"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse424" />
+    <polyline
+       fill="none"
+       points="1792,879 1801,852 1810,879 1792,879"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline426" />
+    <ellipse
+       cx="1801"
+       cy="848"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse428" />
+    <text
+       x="1801"
+       y="845"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text430">is Qualified By Relationship Qualifier</text>
+  </a>
+  <a
+     target="_parent"
+     id="#753327C3-F7BB-4EC9-8AF6-0F381BA993E9"
+     onmouseover="resolve(evt, '#753327C3-F7BB-4EC9-8AF6-0F381BA993E9')">
+    <path
+       d="M846,834 L846,622 A8,8 0 0,0 838,614 L660,614"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path433" />
+    <ellipse
+       cx="846"
+       cy="822"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse435" />
+    <polyline
+       fill="none"
+       points="647,604 674,614 647,623 647,604"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline437" />
+    <ellipse
+       cx="677"
+       cy="613"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse439" />
+    <text
+       x="846"
+       y="617"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text441">Contractual Commitment is Mandated By</text>
+  </a>
+  <a
+     target="_parent"
+     id="#560D605E-6997-42E6-BBBD-693B50D13587"
+     onmouseover="resolve(evt, '#560D605E-6997-42E6-BBBD-693B50D13587')">
+    <path
+       d="M129,199 L129,542 A8,8 0 0,0 137,550 L223,550"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path444" />
+    <ellipse
+       cx="129"
+       cy="209"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse446" />
+    <polyline
+       fill="none"
+       points="237,560 210,550 237,541 237,560"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline448" />
+    <ellipse
+       cx="206"
+       cy="550"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse450" />
+    <text
+       x="129"
+       y="553"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text452">is Conferred By Contract</text>
+  </a>
+  <a
+     target="_parent"
+     id="#F2D0FB7C-046A-4140-BFC9-2F1F76D352B1"
+     onmouseover="resolve(evt, '#F2D0FB7C-046A-4140-BFC9-2F1F76D352B1')">
+    <path
+       d="M101,199 L101,602 A8,8 0 0,0 109,610 L546,610"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path455" />
+    <ellipse
+       cx="101"
+       cy="209"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse457" />
+    <polyline
+       fill="none"
+       points="560,620 533,610 560,601 560,620"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline459" />
+    <ellipse
+       cx="529"
+       cy="610"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse461" />
+    <text
+       x="101"
+       y="613"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text463">is Mandated By Contract</text>
+  </a>
+  <a
+     target="_parent"
+     id="#AB37A384-220C-47B6-95D5-CB1F350141CD"
+     onmouseover="resolve(evt, '#AB37A384-220C-47B6-95D5-CB1F350141CD')">
+    <path
+       d="M169,351 L169,520 A8,8 0 0,0 177,528 L223,528"
+       fill="none"
+       stroke="#800040"
+       stroke-width="1"
+       id="path466" />
+    <ellipse
+       cx="169"
+       cy="361"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse468" />
+    <polyline
+       fill="none"
+       points="237,537 210,528 237,519 237,537"
+       stroke="#800040"
+       stroke-width="1"
+       id="polyline470" />
+    <ellipse
+       cx="206"
+       cy="528"
+       rx="3"
+       ry="3"
+       fill="#ffffff"
+       stroke="#800040"
+       stroke-width="1"
+       id="ellipse472" />
+    <text
+       x="168"
+       y="504"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text474">is Conferred By Written Contract</text>
+  </a>
+  <a
+     target="_parent"
+     id="#4322633C-29EF-4BA0-A8C0-F034B89CD9FA"
+     onmouseover="resolve(evt, '#4322633C-29EF-4BA0-A8C0-F034B89CD9FA')">
+    <path
+       d="M520,296 L520,264 A8,8 0 0,0 512,256 L360,256"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path477" />
+  </a>
+  <a
+     target="_parent"
+     id="#804AE1F1-538F-4AF9-876A-8217503FBEEE"
+     onmouseover="resolve(evt, '#804AE1F1-538F-4AF9-876A-8217503FBEEE')">
+    <polyline
+       fill="none"
+       points="349,295 349,262"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline480" />
+  </a>
+  <a
+     target="_parent"
+     id="#3A2C2599-20FF-4048-A88C-64784EA29E41"
+     onmouseover="resolve(evt, '#3A2C2599-20FF-4048-A88C-64784EA29E41')">
+    <path
+       d="M686,296 L686,264 A8,8 0 0,0 678,256 L360,256"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path483" />
+  </a>
+  <a
+     target="_parent"
+     id="#D63603D9-3DE5-4662-9CC9-4BA68F3D8F16"
+     onmouseover="resolve(evt, '#D63603D9-3DE5-4662-9CC9-4BA68F3D8F16')">
+    <path
+       d="M199,297 L199,264 A8,8 0 0,1 207,256 L339,256"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path486" />
+  </a>
+  <a
+     target="_parent"
+     id="#A45A2F7A-5514-4A4D-94EB-8DCB3C0EC416"
+     onmouseover="resolve(evt, '#A45A2F7A-5514-4A4D-94EB-8DCB3C0EC416')">
+    <path
+       d="M1829,578 L1829,539 A8,8 0 0,0 1821,531 L1792,531"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path489" />
+  </a>
+  <a
+     target="_parent"
+     id="#0C10C83D-D402-40E2-81D8-0933946AEFAD"
+     onmouseover="resolve(evt, '#0C10C83D-D402-40E2-81D8-0933946AEFAD')">
+    <path
+       d="M1685,578 L1685,539 A8,8 0 0,1 1693,531 L1771,531"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path492" />
+  </a>
+  <a
+     target="_parent"
+     id="#D60CB1C4-C668-40CD-9755-DFC8BD9BF2DC"
+     onmouseover="resolve(evt, '#D60CB1C4-C668-40CD-9755-DFC8BD9BF2DC')">
+    <path
+       d="M1466,398 L1396,398 A8,8 0 0,0 1388,406 L1388,430"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path495" />
+  </a>
+  <a
+     target="_parent"
+     id="#63D40DA0-1FC1-4356-A952-0A22F8236D77"
+     onmouseover="resolve(evt, '#63D40DA0-1FC1-4356-A952-0A22F8236D77')">
+    <path
+       d="M1250,430 L1250,406 A8,8 0 0,1 1258,398 L1466,398"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path498" />
+  </a>
+  <a
+     target="_parent"
+     id="#5547A303-4E29-47FA-A42E-6E045966C5FD"
+     onmouseover="resolve(evt, '#5547A303-4E29-47FA-A42E-6E045966C5FD')">
+    <path
+       d="M1782,430 L1782,406 A8,8 0 0,0 1774,398 L1487,398"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path501" />
+  </a>
+  <a
+     target="_parent"
+     id="#14AA7E9F-7621-48E9-8483-F6625A711185"
+     onmouseover="resolve(evt, '#14AA7E9F-7621-48E9-8483-F6625A711185')">
+    <path
+       d="M1534,430 L1534,406 A8,8 0 0,0 1526,398 L1487,398"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path504" />
+  </a>
+  <a
+     target="_parent"
+     id="#A2A31A64-27AF-4E8B-8C1D-D40B04F90A8F"
+     onmouseover="resolve(evt, '#A2A31A64-27AF-4E8B-8C1D-D40B04F90A8F')">
+    <polyline
+       fill="none"
+       points="1527,578 1527,538"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline507" />
+  </a>
+  <a
+     target="_parent"
+     id="#7812EC33-21B2-43B8-821D-530CF94CE8F1"
+     onmouseover="resolve(evt, '#7812EC33-21B2-43B8-821D-530CF94CE8F1')">
+    <path
+       d="M409,958 L409,958 L410,958 L410,929"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path510" />
+  </a>
+  <a
+     target="_parent"
+     id="#46DA4906-36C9-49F8-BFA1-0CCE773DC81F"
+     onmouseover="resolve(evt, '#46DA4906-36C9-49F8-BFA1-0CCE773DC81F')">
+    <path
+       d="M1483,976 L1483,935 A8,8 0 0,0 1475,927 L828,927"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path513" />
+  </a>
+  <a
+     target="_parent"
+     id="#E45D7D41-81A8-4FBA-9A44-0479B8804056"
+     onmouseover="resolve(evt, '#E45D7D41-81A8-4FBA-9A44-0479B8804056')">
+    <path
+       d="M1094,966 L1094,935 A8,8 0 0,0 1086,927 L828,927"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path516" />
+  </a>
+  <a
+     target="_parent"
+     id="#FD70F2D4-ACEE-4735-89CE-DF644EC621DB"
+     onmouseover="resolve(evt, '#FD70F2D4-ACEE-4735-89CE-DF644EC621DB')">
+    <path
+       d="M892,967 L892,935 A8,8 0 0,0 884,927 L828,927"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path519" />
+  </a>
+  <a
+     target="_parent"
+     id="#EAFFE5F9-1127-48BA-BA60-8F4E78599C86"
+     onmouseover="resolve(evt, '#EAFFE5F9-1127-48BA-BA60-8F4E78599C86')">
+    <path
+       d="M699,966 L699,935 A8,8 0 0,1 707,927 L807,927"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path522" />
+  </a>
+  <a
+     target="_parent"
+     id="#18F07D96-9A53-47C0-972F-6C03824A6378"
+     onmouseover="resolve(evt, '#18F07D96-9A53-47C0-972F-6C03824A6378')">
+    <path
+       d="M1287,970 L1287,935 A8,8 0 0,0 1279,927 L828,927"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path525" />
+  </a>
+  <a
+     target="_parent"
+     id="#DACF12F7-E703-44E2-B2C0-5B3782312FF3"
+     onmouseover="resolve(evt, '#DACF12F7-E703-44E2-B2C0-5B3782312FF3')">
+    <path
+       d="M554,962 L554,935 A8,8 0 0,1 562,927 L807,927"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path528" />
+  </a>
+  <a
+     target="_parent"
+     id="#2F1AF459-2675-420E-88C3-13EFE3442E94"
+     onmouseover="resolve(evt, '#2F1AF459-2675-420E-88C3-13EFE3442E94')">
+    <path
+       d="M199,823 L199,752 A8,8 0 0,1 207,744 L366,744"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path531" />
+  </a>
+  <a
+     target="_parent"
+     id="#964992AF-7635-499C-9F4A-049928369470"
+     onmouseover="resolve(evt, '#964992AF-7635-499C-9F4A-049928369470')">
+    <path
+       d="M410,823 L410,752 A8,8 0 0,0 402,744 L387,744"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path534" />
+  </a>
+  <a
+     target="_parent"
+     id="#6866083D-31ED-487F-A7EC-AF17E7F6B4D6"
+     onmouseover="resolve(evt, '#6866083D-31ED-487F-A7EC-AF17E7F6B4D6')">
+    <path
+       d="M829,834 L829,752 A8,8 0 0,0 821,744 L387,744"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path537" />
+  </a>
+  <a
+     target="_parent"
+     id="#FCA4FC7C-D7DB-492A-8B5E-C09A5BCFBE36"
+     onmouseover="resolve(evt, '#FCA4FC7C-D7DB-492A-8B5E-C09A5BCFBE36')">
+    <path
+       d="M282,903 L282,752 A8,8 0 0,1 290,744 L366,744"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path540" />
+  </a>
+  <a
+     target="_parent"
+     id="#6407B497-D0D7-44BC-B949-9E29E0AF11B0"
+     onmouseover="resolve(evt, '#6407B497-D0D7-44BC-B949-9E29E0AF11B0')">
+    <path
+       d="M310,430 L310,404 A8,8 0 0,1 318,396 L335,396"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path543" />
+  </a>
+  <a
+     target="_parent"
+     id="#C0454C9B-88AA-44D2-86DF-12A745B63259"
+     onmouseover="resolve(evt, '#C0454C9B-88AA-44D2-86DF-12A745B63259')">
+    <path
+       d="M247,430 L247,404 A8,8 0 0,0 239,396 L210,396"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path546" />
+  </a>
+  <a
+     target="_parent"
+     id="#1A4C518E-FF19-4BD9-A4F2-21AE0E00684C"
+     onmouseover="resolve(evt, '#1A4C518E-FF19-4BD9-A4F2-21AE0E00684C')">
+    <path
+       d="M1202,668 L1202,646 A8,8 0 0,0 1194,638 L1116,638"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path549" />
+  </a>
+  <a
+     target="_parent"
+     id="#4D0BFCFB-8659-4EDF-AF71-C483DEEEA91F"
+     onmouseover="resolve(evt, '#4D0BFCFB-8659-4EDF-AF71-C483DEEEA91F')">
+    <path
+       d="M1015,667 L1015,646 A8,8 0 0,1 1023,638 L1095,638"
+       fill="none"
+       stroke="#800000"
+       stroke-width="1"
+       id="path552" />
+  </a>
+  <a
+     target="_parent"
+     id="#1D6FE191-EDB7-43FE-9E3F-E3F2AF222175"
+     onmouseover="resolve(evt, '#1D6FE191-EDB7-43FE-9E3F-E3F2AF222175')">
+    <polyline
+       fill="none"
+       points="162,1249 162,1219"
+       stroke="#800000"
+       stroke-width="1"
+       id="polyline555" />
+  </a>
+  <a
+     target="_parent"
+     id="#D814DE3D-69E9-4D66-AED5-8974F952DD8F"
+     onmouseover="resolve(evt, '#D814DE3D-69E9-4D66-AED5-8974F952DD8F')">
+    <defs
+       id="defs563">
+      <linearGradient
+         id="Gradient1"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop558" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop560" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="145"
+       y="823"
+       fill="url(#Gradient1)"
+       width="109"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect565" />
+    <text
+       x="199"
+       y="852"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text567">Conditions Precedent</text>
+  </a>
+  <a
+     target="_parent"
+     id="#6A323F9C-6438-49A9-876E-31DFA2390C57"
+     onmouseover="resolve(evt, '#6A323F9C-6438-49A9-876E-31DFA2390C57')">
+    <defs
+       id="defs575">
+      <linearGradient
+         id="Gradient2"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop570" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop572" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="76"
+       y="120"
+       fill="url(#Gradient2)"
+       width="101"
+       height="79"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect577" />
+    <text
+       x="126"
+       y="162"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text579">Contract</text>
+  </a>
+  <a
+     target="_parent"
+     id="#D53A56D7-BA2C-4AF1-830E-883E6AD87733"
+     onmouseover="resolve(evt, '#D53A56D7-BA2C-4AF1-830E-883E6AD87733')">
+    <defs
+       id="defs587">
+      <linearGradient
+         id="Gradient3"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop582" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop584" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1727"
+       y="430"
+       fill="url(#Gradient3)"
+       width="110"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect589" />
+    <text
+       x="1782"
+       y="460"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text591">Contract Counterparty</text>
+  </a>
+  <a
+     target="_parent"
+     id="#7F3DBCAA-C369-4B88-818C-0911B7E69F5D"
+     onmouseover="resolve(evt, '#7F3DBCAA-C369-4B88-818C-0911B7E69F5D')">
+    <defs
+       id="defs599">
+      <linearGradient
+         id="Gradient4"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop594" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop596" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1091"
+       y="1243"
+       fill="url(#Gradient4)"
+       width="98"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect601" />
+    <text
+       x="1140"
+       y="1272"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text603">Contract Document</text>
+  </a>
+  <a
+     target="_parent"
+     id="#996EFFCC-C856-4138-93AA-4F48B79B46F7"
+     onmouseover="resolve(evt, '#996EFFCC-C856-4138-93AA-4F48B79B46F7')">
+    <defs
+       id="defs611">
+      <linearGradient
+         id="Gradient5"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop606" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop608" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1479"
+       y="578"
+       fill="url(#Gradient5)"
+       width="97"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect613" />
+    <text
+       x="1527"
+       y="607"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text615">Contract Originator</text>
+  </a>
+  <a
+     target="_parent"
+     id="#5BAB3BDF-0329-45E5-BF7D-62B1843D3C72"
+     onmouseover="resolve(evt, '#5BAB3BDF-0329-45E5-BF7D-62B1843D3C72')">
+    <defs
+       id="defs623">
+      <linearGradient
+         id="Gradient6"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop618" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop620" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1438"
+       y="291"
+       fill="url(#Gradient6)"
+       width="74"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect625" />
+    <text
+       x="1475"
+       y="320"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text627">Contract Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B028FFC5-307F-4762-B9E3-61AEC4D4CE5D"
+     onmouseover="resolve(evt, '#B028FFC5-307F-4762-B9E3-61AEC4D4CE5D')">
+    <defs
+       id="defs635">
+      <linearGradient
+         id="Gradient7"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop630" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop632" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1481"
+       y="430"
+       fill="url(#Gradient7)"
+       width="92"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect637" />
+    <text
+       x="1527"
+       y="460"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text639">Contract Principal</text>
+  </a>
+  <a
+     target="_parent"
+     id="#72135C23-2B9F-4790-A4EB-A73A564FBB12"
+     onmouseover="resolve(evt, '#72135C23-2B9F-4790-A4EB-A73A564FBB12')">
+    <defs
+       id="defs647">
+      <linearGradient
+         id="Gradient8"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop642" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop644" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="361"
+       y="823"
+       fill="url(#Gradient8)"
+       width="98"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect649" />
+    <text
+       x="410"
+       y="852"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text651">Contract Terms Set</text>
+  </a>
+  <a
+     target="_parent"
+     id="#9E13951E-F673-4F4B-B1BA-6F6E8F0FDE3E"
+     onmouseover="resolve(evt, '#9E13951E-F673-4F4B-B1BA-6F6E8F0FDE3E')">
+    <defs
+       id="defs659">
+      <linearGradient
+         id="Gradient9"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop654" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop656" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="963"
+       y="1243"
+       fill="url(#Gradient9)"
+       width="102"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect661" />
+    <text
+       x="1014"
+       y="1272"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text663">Contract Third Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#F4B505AB-6337-4A64-AD24-CE5FAAB2CB8D"
+     onmouseover="resolve(evt, '#F4B505AB-6337-4A64-AD24-CE5FAAB2CB8D')">
+    <defs
+       id="defs671">
+      <linearGradient
+         id="Gradient10"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop666" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop668" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="766"
+       y="834"
+       fill="url(#Gradient10)"
+       width="126"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect673" />
+    <text
+       x="829"
+       y="863"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text675">Contractual Commitment</text>
+  </a>
+  <a
+     target="_parent"
+     id="#EB2F7309-57F8-4E98-B4BB-551DC802F17C"
+     onmouseover="resolve(evt, '#EB2F7309-57F8-4E98-B4BB-551DC802F17C')">
+    <defs
+       id="defs683">
+      <linearGradient
+         id="Gradient11"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop678" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop680" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="226"
+       y="903"
+       fill="url(#Gradient11)"
+       width="111"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect685" />
+    <text
+       x="281"
+       y="933"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text687">Contractual Definition</text>
+  </a>
+  <a
+     target="_parent"
+     id="#AAB380A9-00BF-4D28-8732-D1E62B78FA0E"
+     onmouseover="resolve(evt, '#AAB380A9-00BF-4D28-8732-D1E62B78FA0E')">
+    <defs
+       id="defs695">
+      <linearGradient
+         id="Gradient12"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop690" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop692" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="102"
+       y="645"
+       fill="url(#Gradient12)"
+       width="105"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect697" />
+    <text
+       x="154"
+       y="675"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text699">Contractual Element</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B7D53BE4-1B2A-4CC8-B436-C4B06497A54B"
+     onmouseover="resolve(evt, '#B7D53BE4-1B2A-4CC8-B436-C4B06497A54B')">
+    <defs
+       id="defs707">
+      <linearGradient
+         id="Gradient13"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop702" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop704" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="444"
+       y="296"
+       fill="url(#Gradient13)"
+       width="153"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect709" />
+    <text
+       x="520"
+       y="325"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text711">Mutual Contractual Agreement</text>
+  </a>
+  <a
+     target="_parent"
+     id="#CD3FC38A-F03C-41E1-BA93-B4DB7DB63C3D"
+     onmouseover="resolve(evt, '#CD3FC38A-F03C-41E1-BA93-B4DB7DB63C3D')">
+    <defs
+       id="defs719">
+      <linearGradient
+         id="Gradient14"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop714" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop716" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="504"
+       y="962"
+       fill="url(#Gradient14)"
+       width="99"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect721" />
+    <text
+       x="553"
+       y="991"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text723">Non Binding Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#20961C79-B085-4841-9C57-5EB57971896D"
+     onmouseover="resolve(evt, '#20961C79-B085-4841-9C57-5EB57971896D')">
+    <defs
+       id="defs731">
+      <linearGradient
+         id="Gradient15"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop726" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop728" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="351"
+       y="958"
+       fill="url(#Gradient15)"
+       width="118"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect733" />
+    <text
+       x="410"
+       y="987"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text735">Non Binding Terms Set</text>
+  </a>
+  <a
+     target="_parent"
+     id="#773A296B-B67D-4477-A70F-E4CAE7DA626D"
+     onmouseover="resolve(evt, '#773A296B-B67D-4477-A70F-E4CAE7DA626D')">
+    <defs
+       id="defs743">
+      <linearGradient
+         id="Gradient16"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop738" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop740" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="238"
+       y="430"
+       fill="url(#Gradient16)"
+       width="83"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect745" />
+    <text
+       x="279"
+       y="459"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text747">Promissory Note</text>
+  </a>
+  <a
+     target="_parent"
+     id="#7D64F894-3870-4BDA-8712-D2904223BCA0"
+     onmouseover="resolve(evt, '#7D64F894-3870-4BDA-8712-D2904223BCA0')">
+    <defs
+       id="defs755">
+      <linearGradient
+         id="Gradient17"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop750" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop752" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="828"
+       y="1243"
+       fill="url(#Gradient17)"
+       width="109"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect757" />
+    <text
+       x="882"
+       y="1272"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text759">Transferable Contract</text>
+  </a>
+  <a
+     target="_parent"
+     id="#4BC8B96C-E812-4903-B551-BD40A153F787"
+     onmouseover="resolve(evt, '#4BC8B96C-E812-4903-B551-BD40A153F787')">
+    <defs
+       id="defs767">
+      <linearGradient
+         id="Gradient18"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop762" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop764" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1614"
+       y="578"
+       fill="url(#Gradient18)"
+       width="143"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect769" />
+    <text
+       x="1685"
+       y="607"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text771">Transferable Contract Holder</text>
+  </a>
+  <a
+     target="_parent"
+     id="#DE4D1F3C-D523-487A-9EA2-54153BD7946F"
+     onmouseover="resolve(evt, '#DE4D1F3C-D523-487A-9EA2-54153BD7946F')">
+    <defs
+       id="defs779">
+      <linearGradient
+         id="Gradient19"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop774" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop776" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="298"
+       y="295"
+       fill="url(#Gradient19)"
+       width="96"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect781" />
+    <text
+       x="346"
+       y="324"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text783">Unilateral Contract</text>
+  </a>
+  <a
+     target="_parent"
+     id="#436B01EB-149A-4FD7-BB77-C84E71025A71"
+     onmouseover="resolve(evt, '#436B01EB-149A-4FD7-BB77-C84E71025A71')">
+    <defs
+       id="defs791">
+      <linearGradient
+         id="Gradient20"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop786" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop788" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="645"
+       y="296"
+       fill="url(#Gradient20)"
+       width="81"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect793" />
+    <text
+       x="685"
+       y="325"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text795">Verbal Contract</text>
+  </a>
+  <a
+     target="_parent"
+     id="#BDC3ACE3-FC88-46F0-BF94-DBC2C1FC5C26"
+     onmouseover="resolve(evt, '#BDC3ACE3-FC88-46F0-BF94-DBC2C1FC5C26')">
+    <defs
+       id="defs803">
+      <linearGradient
+         id="Gradient21"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop798" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop800" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="158"
+       y="297"
+       fill="url(#Gradient21)"
+       width="83"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect805" />
+    <text
+       x="199"
+       y="327"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text807">Written Contract</text>
+  </a>
+  <a
+     target="_parent"
+     id="#20ED2A0C-7B82-4B29-A4BD-4E02D81C79AD"
+     onmouseover="resolve(evt, '#20ED2A0C-7B82-4B29-A4BD-4E02D81C79AD')">
+    <defs
+       id="defs815">
+      <linearGradient
+         id="Gradient22"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop810" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop812" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1030"
+       y="533"
+       fill="url(#Gradient22)"
+       width="154"
+       height="71"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect817" />
+    <text
+       x="1107"
+       y="563"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text819">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="1107"
+       y="578"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text821">has Contract Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#290FD522-C3E4-497F-AA44-A86F86B49FD8"
+     onmouseover="resolve(evt, '#290FD522-C3E4-497F-AA44-A86F86B49FD8')">
+    <defs
+       id="defs829">
+      <linearGradient
+         id="Gradient23"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop824" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop826" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="67"
+       y="1055"
+       fill="url(#Gradient23)"
+       width="201"
+       height="127"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect831" />
+    <text
+       x="167"
+       y="1114"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text833">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="167"
+       y="1129"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text835">has Contractual Element</text>
+  </a>
+  <a
+     target="_parent"
+     id="#8EEBCE5E-6683-4A80-8486-0864F2AA6E3D"
+     onmouseover="resolve(evt, '#8EEBCE5E-6683-4A80-8486-0864F2AA6E3D')">
+    <defs
+       id="defs843">
+      <linearGradient
+         id="Gradient24"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop838" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop840" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1145"
+       y="668"
+       fill="url(#Gradient24)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect845" />
+    <text
+       x="1202"
+       y="683"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text847">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="1202"
+       y="698"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text849">has Counterparty</text>
+  </a>
+  <a
+     target="_parent"
+     id="#AB307969-5173-445F-9B49-B2C24E62916D"
+     onmouseover="resolve(evt, '#AB307969-5173-445F-9B49-B2C24E62916D')">
+    <defs
+       id="defs857">
+      <linearGradient
+         id="Gradient25"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop852" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop854" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="540"
+       y="24"
+       fill="url(#Gradient25)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect859" />
+    <text
+       x="597"
+       y="40"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text861">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="597"
+       y="54"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text863">has Effective Date</text>
+  </a>
+  <a
+     target="_parent"
+     id="#6714D6AE-C9A0-4F05-9102-20B95F2D6F27"
+     onmouseover="resolve(evt, '#6714D6AE-C9A0-4F05-9102-20B95F2D6F27')">
+    <defs
+       id="defs871">
+      <linearGradient
+         id="Gradient26"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop866" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop868" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1019"
+       y="24"
+       fill="url(#Gradient26)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect873" />
+    <text
+       x="1076"
+       y="40"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text875">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="1076"
+       y="54"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text877">has Execution Date</text>
+  </a>
+  <a
+     target="_parent"
+     id="#5D9ACABE-1DCE-4A02-8A2C-8C9801507F80"
+     onmouseover="resolve(evt, '#5D9ACABE-1DCE-4A02-8A2C-8C9801507F80')">
+    <defs
+       id="defs885">
+      <linearGradient
+         id="Gradient27"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop880" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop882" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1554"
+       y="866"
+       fill="url(#Gradient27)"
+       width="132"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect887" />
+    <text
+       x="1620"
+       y="881"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text889">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="1620"
+       y="896"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text891">has Governing Jurisdiction</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B0D93FF3-A07D-4612-B677-538AE07F867A"
+     onmouseover="resolve(evt, '#B0D93FF3-A07D-4612-B677-538AE07F867A')">
+    <defs
+       id="defs899">
+      <linearGradient
+         id="Gradient28"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop894" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop896" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="99"
+       y="1249"
+       fill="url(#Gradient28)"
+       width="118"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect901" />
+    <text
+       x="158"
+       y="1264"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text903">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="158"
+       y="1279"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text905">has Non Binding Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#0179CCD2-2244-407A-A6F2-EC3CD8D2C869"
+     onmouseover="resolve(evt, '#0179CCD2-2244-407A-A6F2-EC3CD8D2C869')">
+    <defs
+       id="defs913">
+      <linearGradient
+         id="Gradient29"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop908" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop910" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="958"
+       y="667"
+       fill="url(#Gradient29)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect915" />
+    <text
+       x="1015"
+       y="682"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text917">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="1015"
+       y="697"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text919">has Principal</text>
+  </a>
+  <a
+     target="_parent"
+     id="#17546052-0B2E-47C7-9A38-92CA2BC63064"
+     onmouseover="resolve(evt, '#17546052-0B2E-47C7-9A38-92CA2BC63064')">
+    <defs
+       id="defs927">
+      <linearGradient
+         id="Gradient30"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop922" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop924" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1356"
+       y="1249"
+       fill="url(#Gradient30)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect929" />
+    <text
+       x="1413"
+       y="1264"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text931">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="1413"
+       y="1279"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text933">has Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#5BECA2B6-C250-4723-B8C5-D8BD428A83F3"
+     onmouseover="resolve(evt, '#5BECA2B6-C250-4723-B8C5-D8BD428A83F3')">
+    <defs
+       id="defs941">
+      <linearGradient
+         id="Gradient31"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop936" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop938" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1496"
+       y="1249"
+       fill="url(#Gradient31)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect943" />
+    <text
+       x="1553"
+       y="1264"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text945">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="1553"
+       y="1279"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text947">has Third Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#A44476B8-E1CB-4B39-B7FC-1B5ECF11245F"
+     onmouseover="resolve(evt, '#A44476B8-E1CB-4B39-B7FC-1B5ECF11245F')">
+    <defs
+       id="defs955">
+      <linearGradient
+         id="Gradient32"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop950" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop952" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1744"
+       y="866"
+       fill="url(#Gradient32)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect957" />
+    <text
+       x="1801"
+       y="881"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text959">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="1801"
+       y="896"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text961">qualifies</text>
+  </a>
+  <a
+     target="_parent"
+     id="#444C3795-2BFC-4029-BB05-B956ABF47AF5"
+     onmouseover="resolve(evt, '#444C3795-2BFC-4029-BB05-B956ABF47AF5')">
+    <defs
+       id="defs969">
+      <linearGradient
+         id="Gradient33"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop964" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop966" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1215"
+       y="1249"
+       rx="15"
+       ry="20"
+       fill="url(#Gradient33)"
+       width="116"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect971" />
+    <text
+       x="1232"
+       y="1272"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="start"
+       id="text973">defines Terms For</text>
+  </a>
+  <a
+     target="_parent"
+     id="#60D45900-C009-4290-B9D6-F6F2A9C0116A"
+     onmouseover="resolve(evt, '#60D45900-C009-4290-B9D6-F6F2A9C0116A')">
+    <defs
+       id="defs981">
+      <linearGradient
+         id="Gradient34"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop976" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop978" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1636"
+       y="1249"
+       rx="15"
+       ry="20"
+       fill="url(#Gradient34)"
+       width="104"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect983" />
+    <text
+       x="1653"
+       y="1272"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="start"
+       id="text985">is Evidence For</text>
+  </a>
+  <a
+     target="_parent"
+     id="#52D2A81D-E1CA-4CA6-BB43-B07C3325D6E4"
+     onmouseover="resolve(evt, '#52D2A81D-E1CA-4CA6-BB43-B07C3325D6E4')">
+    <defs
+       id="defs993">
+      <linearGradient
+         id="Gradient35"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop988" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop990" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1766"
+       y="1249"
+       rx="15"
+       ry="20"
+       fill="url(#Gradient35)"
+       width="83"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect995" />
+    <text
+       x="1783"
+       y="1272"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="start"
+       id="text997">supersedes</text>
+  </a>
+  <a
+     target="_parent"
+     id="#A29D3292-01D7-42C8-9F6E-35053452D6FC"
+     onmouseover="resolve(evt, '#A29D3292-01D7-42C8-9F6E-35053452D6FC')">
+    <defs
+       id="defs1005">
+      <linearGradient
+         id="Gradient36"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1000" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop1002" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="223"
+       y="519"
+       fill="url(#Gradient36)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect1007" />
+    <text
+       x="280"
+       y="534"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1009">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="280"
+       y="549"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1011">confers</text>
+  </a>
+  <a
+     target="_parent"
+     id="#AE140153-8E30-4F25-8D1D-E0BC7E14F562"
+     onmouseover="resolve(evt, '#AE140153-8E30-4F25-8D1D-E0BC7E14F562')">
+    <defs
+       id="defs1019">
+      <linearGradient
+         id="Gradient37"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1014" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop1016" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="544"
+       y="771"
+       fill="url(#Gradient37)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect1021" />
+    <text
+       x="601"
+       y="786"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1023">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="601"
+       y="801"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1025">has Part</text>
+  </a>
+  <a
+     target="_parent"
+     id="#20EC89CB-2F2E-4D2E-8756-89E14ED21DE8"
+     onmouseover="resolve(evt, '#20EC89CB-2F2E-4D2E-8756-89E14ED21DE8')">
+    <defs
+       id="defs1033">
+      <linearGradient
+         id="Gradient38"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1028" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1030" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1331"
+       y="430"
+       fill="url(#Gradient38)"
+       width="115"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1035" />
+    <text
+       x="1388"
+       y="460"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1037">OTC Transaction Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#50FFC799-8F3C-4385-BCD8-B91DB4142A88"
+     onmouseover="resolve(evt, '#50FFC799-8F3C-4385-BCD8-B91DB4142A88')">
+    <defs
+       id="defs1045">
+      <linearGradient
+         id="Gradient39"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1040" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1042" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1791"
+       y="189"
+       fill="url(#Gradient39)"
+       width="64"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1047" />
+    <text
+       x="1823"
+       y="219"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1049">Swap Party</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B52219D2-7BC2-405C-AC49-51D9B655A2D4"
+     onmouseover="resolve(evt, '#B52219D2-7BC2-405C-AC49-51D9B655A2D4')">
+    <defs
+       id="defs1057">
+      <linearGradient
+         id="Gradient40"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1052" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1054" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="953"
+       y="458"
+       fill="url(#Gradient40)"
+       width="64"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1059" />
+    <text
+       x="985"
+       y="487"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1061">Creditor</text>
+  </a>
+  <a
+     target="_parent"
+     id="#AFD0F006-7EAF-4DC1-A3AD-BB3852674453"
+     onmouseover="resolve(evt, '#AFD0F006-7EAF-4DC1-A3AD-BB3852674453')">
+    <defs
+       id="defs1069">
+      <linearGradient
+         id="Gradient41"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1064" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1066" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="893"
+       y="337"
+       fill="url(#Gradient41)"
+       width="64"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1071" />
+    <text
+       x="925"
+       y="366"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1073">Debtor</text>
+  </a>
+  <a
+     target="_parent"
+     id="#10A1354C-1C83-4198-8FA5-3EEC81F9F5B1"
+     onmouseover="resolve(evt, '#10A1354C-1C83-4198-8FA5-3EEC81F9F5B1')">
+    <defs
+       id="defs1081">
+      <linearGradient
+         id="Gradient42"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1076" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1078" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1551"
+       y="241"
+       fill="url(#Gradient42)"
+       width="80"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1083" />
+    <text
+       x="1591"
+       y="270"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1085">Account Holder</text>
+  </a>
+  <a
+     target="_parent"
+     id="#014E7903-CE99-4471-A234-5B642B5D4CD2"
+     onmouseover="resolve(evt, '#014E7903-CE99-4471-A234-5B642B5D4CD2')">
+    <defs
+       id="defs1093">
+      <linearGradient
+         id="Gradient43"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1088" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1090" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1543"
+       y="131"
+       fill="url(#Gradient43)"
+       width="88"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1095" />
+    <text
+       x="1587"
+       y="160"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1097">Account Provider</text>
+  </a>
+  <a
+     target="_parent"
+     id="#B8357241-00AE-431F-BEBB-2B2AB72F44A9"
+     onmouseover="resolve(evt, '#B8357241-00AE-431F-BEBB-2B2AB72F44A9')">
+    <defs
+       id="defs1105">
+      <linearGradient
+         id="Gradient44"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1100" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1102" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1206"
+       y="430"
+       fill="url(#Gradient44)"
+       width="89"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1107" />
+    <text
+       x="1250"
+       y="460"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1109">Registered Agent</text>
+  </a>
+  <a
+     target="_parent"
+     id="#EA41C319-E6D5-4F31-9A24-4B179B007F1D"
+     onmouseover="resolve(evt, '#EA41C319-E6D5-4F31-9A24-4B179B007F1D')">
+    <defs
+       id="defs1117">
+      <linearGradient
+         id="Gradient45"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1112" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1114" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1788"
+       y="82"
+       fill="url(#Gradient45)"
+       width="85"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1119" />
+    <text
+       x="1830"
+       y="111"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1121">Service Provider</text>
+  </a>
+  <a
+     target="_parent"
+     id="#DBE2ECBB-F4D3-4FDD-85CA-E0EC38AEACAA"
+     onmouseover="resolve(evt, '#DBE2ECBB-F4D3-4FDD-85CA-E0EC38AEACAA')">
+    <defs
+       id="defs1129">
+      <linearGradient
+         id="Gradient46"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1124" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1126" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1402"
+       y="976"
+       fill="url(#Gradient46)"
+       width="162"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1131" />
+    <text
+       x="1483"
+       y="1006"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1133">Equity Apportionment Terms Set</text>
+  </a>
+  <a
+     target="_parent"
+     id="#9CF5BBB9-9A14-4A67-9F19-1540CE7D7516"
+     onmouseover="resolve(evt, '#9CF5BBB9-9A14-4A67-9F19-1540CE7D7516')">
+    <defs
+       id="defs1141">
+      <linearGradient
+         id="Gradient47"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1136" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1138" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1009"
+       y="966"
+       fill="url(#Gradient47)"
+       width="170"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1143" />
+    <text
+       x="1094"
+       y="995"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1145">Liability Apportionment Terms Set</text>
+  </a>
+  <a
+     target="_parent"
+     id="#22EBC4C0-F37C-4AC1-A802-DFCCE8EF3634"
+     onmouseover="resolve(evt, '#22EBC4C0-F37C-4AC1-A802-DFCCE8EF3634')">
+    <defs
+       id="defs1153">
+      <linearGradient
+         id="Gradient48"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1148" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1150" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="818"
+       y="967"
+       fill="url(#Gradient48)"
+       width="145"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1155" />
+    <text
+       x="890"
+       y="997"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1157">Derivative Transaction Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#371134C2-01FC-488F-B726-8768BF817ED5"
+     onmouseover="resolve(evt, '#371134C2-01FC-488F-B726-8768BF817ED5')">
+    <defs
+       id="defs1165">
+      <linearGradient
+         id="Gradient49"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1160" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1162" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="708"
+       y="1243"
+       fill="url(#Gradient49)"
+       width="66"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1167" />
+    <text
+       x="741"
+       y="1272"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1169">Swap Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#90E64131-10CF-416D-A3F6-330A7BB75910"
+     onmouseover="resolve(evt, '#90E64131-10CF-416D-A3F6-330A7BB75910')">
+    <defs
+       id="defs1177">
+      <linearGradient
+         id="Gradient50"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1172" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1174" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="667"
+       y="966"
+       fill="url(#Gradient50)"
+       width="64"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1179" />
+    <text
+       x="699"
+       y="995"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1181">Debt Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#A1FD668F-D372-4011-9E6D-2FEDA421B99D"
+     onmouseover="resolve(evt, '#A1FD668F-D372-4011-9E6D-2FEDA421B99D')">
+    <defs
+       id="defs1189">
+      <linearGradient
+         id="Gradient51"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1184" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1186" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1241"
+       y="970"
+       fill="url(#Gradient51)"
+       width="92"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1191" />
+    <text
+       x="1287"
+       y="999"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1193">Settlement Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#EA7EEFF0-E128-47A7-AAE8-E911D7981470"
+     onmouseover="resolve(evt, '#EA7EEFF0-E128-47A7-AAE8-E911D7981470')">
+    <defs
+       id="defs1201">
+      <linearGradient
+         id="Gradient52"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1196" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1198" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="515"
+       y="1243"
+       fill="url(#Gradient52)"
+       width="125"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1203" />
+    <text
+       x="577"
+       y="1272"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1205">Equity Conversion Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#63AE7814-C7C5-4B83-9603-BD7E950D2C2D"
+     onmouseover="resolve(evt, '#63AE7814-C7C5-4B83-9603-BD7E950D2C2D')">
+    <defs
+       id="defs1213">
+      <linearGradient
+         id="Gradient53"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1208" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1210" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="365"
+       y="1243"
+       fill="url(#Gradient53)"
+       width="92"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1215" />
+    <text
+       x="411"
+       y="1272"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1217">Conversion Terms</text>
+  </a>
+  <a
+     target="_parent"
+     id="#4831CFAB-EF60-4429-BA3F-328222BE93C6"
+     onmouseover="resolve(evt, '#4831CFAB-EF60-4429-BA3F-328222BE93C6')">
+    <defs
+       id="defs1225">
+      <linearGradient
+         id="Gradient54"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1220" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1222" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1386"
+       y="765"
+       fill="url(#Gradient54)"
+       width="83"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1227" />
+    <text
+       x="1427"
+       y="794"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1229">General Partner</text>
+  </a>
+  <a
+     target="_parent"
+     id="#407EE4F8-F256-430C-92EA-D13B99B2EAF6"
+     onmouseover="resolve(evt, '#407EE4F8-F256-430C-92EA-D13B99B2EAF6')">
+    <defs
+       id="defs1237">
+      <linearGradient
+         id="Gradient55"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1232" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1234" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1228"
+       y="765"
+       fill="url(#Gradient55)"
+       width="81"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1239" />
+    <text
+       x="1268"
+       y="794"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1241">Limited Partner</text>
+  </a>
+  <a
+     target="_parent"
+     id="#2259DFFB-6FE5-48F0-AED2-5B77D7F2C640"
+     onmouseover="resolve(evt, '#2259DFFB-6FE5-48F0-AED2-5B77D7F2C640')">
+    <defs
+       id="defs1249">
+      <linearGradient
+         id="Gradient56"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1244" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1246" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1797"
+       y="578"
+       fill="url(#Gradient56)"
+       width="67"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1251" />
+    <text
+       x="1830"
+       y="607"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1253">Policyholder</text>
+  </a>
+  <a
+     target="_parent"
+     id="#930F5D3A-366F-4066-B01B-8268152EEF06"
+     onmouseover="resolve(evt, '#930F5D3A-366F-4066-B01B-8268152EEF06')">
+    <defs
+       id="defs1261">
+      <linearGradient
+         id="Gradient57"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1256" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1258" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="811"
+       y="18"
+       fill="url(#Gradient57)"
+       width="64"
+       height="53"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1263" />
+    <text
+       x="843"
+       y="47"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1265">Date</text>
+  </a>
+  <a
+     target="_parent"
+     id="#EC5EA7AB-224E-4F0C-BFE4-14CE72A350F4"
+     onmouseover="resolve(evt, '#EC5EA7AB-224E-4F0C-BFE4-14CE72A350F4')">
+    <defs
+       id="defs1273">
+      <linearGradient
+         id="Gradient58"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1268" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1270" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1588"
+       y="765"
+       fill="url(#Gradient58)"
+       width="64"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1275" />
+    <text
+       x="1620"
+       y="795"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1277">Jurisdiction</text>
+  </a>
+  <a
+     target="_parent"
+     id="#1CE4693F-6853-4694-9543-DBE4407A3F2D"
+     onmouseover="resolve(evt, '#1CE4693F-6853-4694-9543-DBE4407A3F2D')">
+    <defs
+       id="defs1285">
+      <linearGradient
+         id="Gradient59"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1280" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1282" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="1746"
+       y="765"
+       fill="url(#Gradient59)"
+       width="111"
+       height="54"
+       stroke="#808040"
+       stroke-width="1"
+       id="rect1287" />
+    <text
+       x="1801"
+       y="795"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1289">Relationship Qualifier</text>
+  </a>
+  <a
+     target="_parent"
+     id="#9E1F1549-9800-4B1F-8AAD-EACF6297206D"
+     onmouseover="resolve(evt, '#9E1F1549-9800-4B1F-8AAD-EACF6297206D')">
+    <defs
+       id="defs1297">
+      <linearGradient
+         id="Gradient60"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1292" />
+        <stop
+           offset="95%"
+           stop-color="#d0d0ff"
+           id="stop1294" />
+      </linearGradient>
+    </defs>
+    <rect
+       x="546"
+       y="590"
+       fill="url(#Gradient60)"
+       width="114"
+       height="40"
+       stroke="#8080ff"
+       stroke-width="1"
+       id="rect1299" />
+    <text
+       x="603"
+       y="605"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1301">&lt;&lt;Associative Entity&gt;&gt;</text>
+    <text
+       x="603"
+       y="620"
+       fill="#000000"
+       font-size="10"
+       font-family="'Arial Unicode MS','Arial'"
+       text-anchor="middle"
+       id="text1303">mandates</text>
+  </a>
+  <a
+     target="_parent"
+     id="a1326"
+     onmouseover="resolve(evt, '#2C38D3E3-DA4C-4762-AC67-C12C890EBAF2')">
+    <defs
+       id="defs1311">
+      <linearGradient
+         id="Gradient61"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1306" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1308" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1318">
+      <linearGradient
+         id="Gradient62"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1313" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1315" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M360,262 A10,12 0 0,0 339,262 L349,262 Z"
+       fill="url(#Gradient62)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1320" />
+    <line
+       x1="353"
+       x2="346"
+       y1="260"
+       y2="252"
+       stroke="#800000"
+       stroke-width="1"
+       id="line1322" />
+    <line
+       x1="346"
+       x2="353"
+       y1="260"
+       y2="252"
+       stroke="#800000"
+       stroke-width="1"
+       id="line1324" />
+  </a>
+  <a
+     target="_parent"
+     id="a1344"
+     onmouseover="resolve(evt, '#197DFE4B-F769-4471-B5C6-E4FAE2ECEF2D')">
+    <defs
+       id="defs1333">
+      <linearGradient
+         id="Gradient63"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1328" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1330" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1340">
+      <linearGradient
+         id="Gradient64"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1335" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1337" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M1792,538 A10,13 0 0,0 1771,538 L1781,537 Z"
+       fill="url(#Gradient64)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1342" />
+  </a>
+  <a
+     target="_parent"
+     id="a1362"
+     onmouseover="resolve(evt, '#C578BA64-00BF-425E-A15B-A339F4829EE5')">
+    <defs
+       id="defs1351">
+      <linearGradient
+         id="Gradient65"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1346" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1348" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1358">
+      <linearGradient
+         id="Gradient66"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1353" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1355" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M1487,405 A10,13 0 0,0 1466,405 L1476,405 Z"
+       fill="url(#Gradient66)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1360" />
+  </a>
+  <a
+     target="_parent"
+     id="a1380"
+     onmouseover="resolve(evt, '#42D7C875-C7F1-4400-A70E-79337542D62C')">
+    <defs
+       id="defs1369">
+      <linearGradient
+         id="Gradient67"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1364" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1366" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1376">
+      <linearGradient
+         id="Gradient68"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1371" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1373" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M1538,538 A10,13 0 0,0 1517,538 L1527,537 Z"
+       fill="url(#Gradient68)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1378" />
+  </a>
+  <a
+     target="_parent"
+     id="a1398"
+     onmouseover="resolve(evt, '#CF9B5BF4-A4D4-4A93-A31A-4D89A6BB70F9')">
+    <defs
+       id="defs1387">
+      <linearGradient
+         id="Gradient69"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1382" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1384" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1394">
+      <linearGradient
+         id="Gradient70"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1389" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1391" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M421,929 A10,13 0 0,0 400,929 L410,929 Z"
+       fill="url(#Gradient70)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1396" />
+  </a>
+  <a
+     target="_parent"
+     id="a1416"
+     onmouseover="resolve(evt, '#F3B3F8A4-6660-46C9-B1E3-809F5F77C450')">
+    <defs
+       id="defs1405">
+      <linearGradient
+         id="Gradient71"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1400" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1402" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1412">
+      <linearGradient
+         id="Gradient72"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1407" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1409" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M828,934 A10,13 0 0,0 807,934 L817,933 Z"
+       fill="url(#Gradient72)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1414" />
+  </a>
+  <a
+     target="_parent"
+     id="a1434"
+     onmouseover="resolve(evt, '#6F3D54B2-1228-4CF2-A858-E7E13C9E0B4C')">
+    <defs
+       id="defs1423">
+      <linearGradient
+         id="Gradient73"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1418" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1420" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1430">
+      <linearGradient
+         id="Gradient74"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1425" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1427" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M387,751 A10,13 0 0,0 366,751 L376,750 Z"
+       fill="url(#Gradient74)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1432" />
+  </a>
+  <a
+     target="_parent"
+     id="a1452"
+     onmouseover="resolve(evt, '#B4B5EB6B-A0AF-4444-BCCE-67205A12E4E4')">
+    <defs
+       id="defs1441">
+      <linearGradient
+         id="Gradient75"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1436" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1438" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1448">
+      <linearGradient
+         id="Gradient76"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1443" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1445" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M356,403 A10,13 0 0,0 335,403 L345,402 Z"
+       fill="url(#Gradient76)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1450" />
+  </a>
+  <a
+     target="_parent"
+     id="a1470"
+     onmouseover="resolve(evt, '#BD1E36C8-2EEF-461C-9C40-678C381B56EF')">
+    <defs
+       id="defs1459">
+      <linearGradient
+         id="Gradient77"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1454" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1456" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1466">
+      <linearGradient
+         id="Gradient78"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1461" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1463" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M210,403 A10,13 0 0,0 189,403 L199,402 Z"
+       fill="url(#Gradient78)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1468" />
+  </a>
+  <a
+     target="_parent"
+     id="a1488"
+     onmouseover="resolve(evt, '#4C1B6154-AFD8-4085-82E1-944ABF55BF4E')">
+    <defs
+       id="defs1477">
+      <linearGradient
+         id="Gradient79"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1472" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1474" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1484">
+      <linearGradient
+         id="Gradient80"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1479" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1481" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M1116,645 A10,13 0 0,0 1095,645 L1105,645 Z"
+       fill="url(#Gradient80)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1486" />
+  </a>
+  <a
+     target="_parent"
+     id="a1506"
+     onmouseover="resolve(evt, '#2E297788-9F07-445D-9E54-EEC1F66A520A')">
+    <defs
+       id="defs1495">
+      <linearGradient
+         id="Gradient81"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1490" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1492" />
+      </linearGradient>
+    </defs>
+    <defs
+       id="defs1502">
+      <linearGradient
+         id="Gradient82"
+         x1="0%"
+         x2="100%"
+         y1="0%"
+         y2="100%"
+         gradientUnits="objectBoundingBox">
+        <stop
+           offset="5%"
+           stop-color="#ffffff"
+           id="stop1497" />
+        <stop
+           offset="95%"
+           stop-color="#e9ca83"
+           id="stop1499" />
+      </linearGradient>
+    </defs>
+    <path
+       d="M172,1219 A10,13 0 0,0 151,1219 L161,1219 Z"
+       fill="url(#Gradient82)"
+       stroke="#800000"
+       stroke-width="1"
+       id="path1504" />
+  </a>
+  <rect
+     x="137"
+     y="3"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     width="333"
+     height="90"
+     stroke="#800000"
+     stroke-width="1"
+     id="rect1508" />
+  <text
+     x="305"
+     y="11"
+     fill="#000000"
+     font-size="10"
+     font-family="'Arial Unicode MS','Arial'"
+     text-anchor="middle"
+     id="text1510">Conceptual Data Model</text>
+  <text
+     x="141"
+     y="26"
+     fill="#000000"
+     font-size="10"
+     font-family="'Arial Unicode MS','Arial'"
+     text-anchor="start"
+     id="text1512">Model: Financial Industry Business Data Model</text>
+  <text
+     x="141"
+     y="41"
+     fill="#000000"
+     font-size="10"
+     font-family="'Arial Unicode MS','Arial'"
+     text-anchor="start"
+     id="text1514">Package: Contracts</text>
+  <text
+     x="141"
+     y="56"
+     fill="#000000"
+     font-size="10"
+     font-family="'Arial Unicode MS','Arial'"
+     text-anchor="start"
+     id="text1516">Diagram: Foundation Agreements - Contracts</text>
+  <text
+     x="141"
+     y="71"
+     fill="#000000"
+     font-size="10"
+     font-family="'Arial Unicode MS','Arial'"
+     text-anchor="start"
+     id="text1518">Author: Jurgen Ziemer, © Jayzed Data Models Inc.</text>
+  <text
+     x="470"
+     y="71"
+     fill="#000000"
+     font-size="10"
+     font-family="'Arial Unicode MS','Arial'"
+     text-anchor="end"
+     id="text1520">Date: 2019-04-14 </text>
+  <text
+     x="141"
+     y="86"
+     fill="#000000"
+     font-size="10"
+     font-family="'Arial Unicode MS','Arial'"
+     text-anchor="start"
+     id="text1522">Version: 1.0 (FIBO 2018Q4)                                   http://fib-dm.com</text>
+  <line
+     x1="137"
+     x2="470"
+     y1="78"
+     y2="78"
+     stroke="#800000"
+     stroke-width="1"
+     id="line1524" />
+  <line
+     x1="137"
+     x2="470"
+     y1="63"
+     y2="63"
+     stroke="#800000"
+     stroke-width="1"
+     id="line1526" />
+  <line
+     x1="137"
+     x2="470"
+     y1="48"
+     y2="48"
+     stroke="#800000"
+     stroke-width="1"
+     id="line1528" />
+  <line
+     x1="137"
+     x2="470"
+     y1="33"
+     y2="33"
+     stroke="#800000"
+     stroke-width="1"
+     id="line1530" />
+  <line
+     x1="137"
+     x2="470"
+     y1="18"
+     y2="18"
+     stroke="#800000"
+     stroke-width="1"
+     id="line1532" />
+  <image
+     y="2.5903072"
+     x="74.939079"
+     id="image1552"
+     xlink:href="data:image/png;base64,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
+rkJggg==
+"
+     preserveAspectRatio="none"
+     height="91.364899"
+     width="48.311104" />
+</svg>

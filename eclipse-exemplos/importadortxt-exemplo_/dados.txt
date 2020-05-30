@@ -1,0 +1,1 @@
+(12, 10, 'f', NULL, 'Márcia Joselene', 'Siqueira', 'Rua: João Martins da Costa Passos, 168', 'Primavera I', '84200000', 'Jaguariaíva', '', 30, 77, '');

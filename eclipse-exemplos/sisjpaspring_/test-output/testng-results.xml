@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="676" started-at="2015-07-23T15:50:38Z" finished-at="2015-07-23T15:50:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="676" started-at="2015-07-23T15:50:38Z" finished-at="2015-07-23T15:50:39Z">
+      <class name="br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioCliente">
+        <test-method status="PASS" signature="repositorio_de_cliente_salva_cliente_com_conta_acesso_invalida()[pri:0, instance:br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioCliente@63998bf4]" name="repositorio_de_cliente_salva_cliente_com_conta_acesso_invalida" duration-ms="0" started-at="2015-07-23T12:50:39Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repositorio_de_cliente_salva_cliente_com_conta_acesso_invalida -->
+        <test-method status="PASS" signature="repositorio_de_cliente_salva_cliente_com_conta_acesso_valida()[pri:0, instance:br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioCliente@63998bf4]" name="repositorio_de_cliente_salva_cliente_com_conta_acesso_valida" duration-ms="16" started-at="2015-07-23T12:50:39Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repositorio_de_cliente_salva_cliente_com_conta_acesso_valida -->
+      </class> <!-- br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioCliente -->
+      <class name="br.com.carloskafka.sisjpaspring.dominio.seguranca.TestesContaAcesso">
+        <test-method status="PASS" signature="conta_acesso_validacao_com_erro_obrigatoriedade()[pri:0, instance:br.com.carloskafka.sisjpaspring.dominio.seguranca.TestesContaAcesso@3bd55d8]" name="conta_acesso_validacao_com_erro_obrigatoriedade" duration-ms="15" started-at="2015-07-23T12:50:38Z" finished-at="2015-07-23T12:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conta_acesso_validacao_com_erro_obrigatoriedade -->
+        <test-method status="PASS" signature="conta_acesso_validacao_sem_erro_obrigatoriedade()[pri:0, instance:br.com.carloskafka.sisjpaspring.dominio.seguranca.TestesContaAcesso@3bd55d8]" name="conta_acesso_validacao_sem_erro_obrigatoriedade" duration-ms="0" started-at="2015-07-23T12:50:38Z" finished-at="2015-07-23T12:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conta_acesso_validacao_sem_erro_obrigatoriedade -->
+      </class> <!-- br.com.carloskafka.sisjpaspring.dominio.seguranca.TestesContaAcesso -->
+      <class name="br.com.carloskafka.sisjpaspring.dominio.seguranca.TestesAutenticador">
+        <test-method status="PASS" signature="autenticador_lanca_excecao_ao_validar_conta_acesso_inexistente()[pri:0, instance:br.com.carloskafka.sisjpaspring.dominio.seguranca.TestesAutenticador@790132f7]" name="autenticador_lanca_excecao_ao_validar_conta_acesso_inexistente" duration-ms="317" started-at="2015-07-23T12:50:38Z" finished-at="2015-07-23T12:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autenticador_lanca_excecao_ao_validar_conta_acesso_inexistente -->
+        <test-method status="PASS" signature="autenticador_valida_conta_acesso_e_retorna_token()[pri:0, instance:br.com.carloskafka.sisjpaspring.dominio.seguranca.TestesAutenticador@790132f7]" name="autenticador_valida_conta_acesso_e_retorna_token" duration-ms="203" started-at="2015-07-23T12:50:38Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autenticador_valida_conta_acesso_e_retorna_token -->
+      </class> <!-- br.com.carloskafka.sisjpaspring.dominio.seguranca.TestesAutenticador -->
+      <class name="br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioContaAcesso">
+        <test-method status="PASS" signature="repositorio_de_conta_acesso_obtem_conta_acesso_com_sucesso()[pri:0, instance:br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioContaAcesso@61942c1]" name="repositorio_de_conta_acesso_obtem_conta_acesso_com_sucesso" duration-ms="0" started-at="2015-07-23T12:50:39Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repositorio_de_conta_acesso_obtem_conta_acesso_com_sucesso -->
+        <test-method status="PASS" signature="repositorio_de_conta_acesso_obtem_todos_com_sucesso()[pri:0, instance:br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioContaAcesso@61942c1]" name="repositorio_de_conta_acesso_obtem_todos_com_sucesso" duration-ms="16" started-at="2015-07-23T12:50:39Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repositorio_de_conta_acesso_obtem_todos_com_sucesso -->
+        <test-method status="PASS" signature="repositorio_de_conta_acesso_obtem_conta_acesso_sem_sucesso()[pri:0, instance:br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioContaAcesso@61942c1]" name="repositorio_de_conta_acesso_obtem_conta_acesso_sem_sucesso" duration-ms="0" started-at="2015-07-23T12:50:39Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repositorio_de_conta_acesso_obtem_conta_acesso_sem_sucesso -->
+        <test-method status="PASS" signature="repositorio_de_conta_acesso_salva_conta_acesso_com_sucesso()[pri:0, instance:br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioContaAcesso@61942c1]" name="repositorio_de_conta_acesso_salva_conta_acesso_com_sucesso" duration-ms="31" started-at="2015-07-23T12:50:39Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repositorio_de_conta_acesso_salva_conta_acesso_com_sucesso -->
+        <test-method status="PASS" signature="repositorio_de_conta_acesso_salva_conta_acesso_sem_sucesso()[pri:0, instance:br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioContaAcesso@61942c1]" name="repositorio_de_conta_acesso_salva_conta_acesso_sem_sucesso" duration-ms="16" started-at="2015-07-23T12:50:39Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repositorio_de_conta_acesso_salva_conta_acesso_sem_sucesso -->
+      </class> <!-- br.com.carloskafka.sisjpaspring.repositorios.TestesRepositorioContaAcesso -->
+      <class name="br.com.carloskafka.sisjpaspring.dominio.TestesCliente">
+        <test-method status="PASS" signature="cliente_validacao_sem_erro_obrigatoriedade()[pri:0, instance:br.com.carloskafka.sisjpaspring.dominio.TestesCliente@7e0b9178]" name="cliente_validacao_sem_erro_obrigatoriedade" duration-ms="0" started-at="2015-07-23T12:50:39Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cliente_validacao_sem_erro_obrigatoriedade -->
+        <test-method status="PASS" signature="cliente_validacao_com_erro_obrigatoriedade()[pri:0, instance:br.com.carloskafka.sisjpaspring.dominio.TestesCliente@7e0b9178]" name="cliente_validacao_com_erro_obrigatoriedade" duration-ms="0" started-at="2015-07-23T12:50:39Z" finished-at="2015-07-23T12:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cliente_validacao_com_erro_obrigatoriedade -->
+      </class> <!-- br.com.carloskafka.sisjpaspring.dominio.TestesCliente -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

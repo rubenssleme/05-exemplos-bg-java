@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<ui:include src="template/android.xhtml" />
+	<f:facet name="first">
+		<title>SisLaraWEB - Cadastro de Usuário Externo</title>
+	</f:facet>
+	<script type="text/javascript"
+		src="#{request.contextPath}/js/jquery.mask.js" />
+	<script type="text/javascript"
+		src="#{request.contextPath}/js/jquery.mask.min.js" />
+	<script type="text/javascript">
+		$('#telefoneCelular').mask('(##)#########');
+	</script>
+</h:head>
+<h:body>
+	<h:form prependId="false" id="form" >
+
+		<p:panel id="painel-cadastro-usuario-externo" header="Informações Básicas" styleClass="ui-fluid">
+			<p:focus context="painel-cadastro-usuario-externo"/>
+				
+			<p:messages id="mensagem">
+				<p:autoUpdate />
+			</p:messages>
+			<h:panelGrid columnClasses="label" columns="1">
+				<h:outputLabel for="nomeCompleto" value="Nome Completo: ">
+					<font color="red">*</font>
+				</h:outputLabel>
+				<p:inputText id="nomeCompleto" 
+					value="#{controladorPaginaCadastroUsuarioExterno.solicitacaoCadastroUsuarioExternoDTO.nomeCompleto}"
+					label="Nome Completo" maxlength="100" required="true"/>
+				<p:message for="nomeCompleto"/>
+				
+				<h:outputLabel for="telefoneCelular" value="Telefone Celular: ">
+					<font color="red">*</font>
+				</h:outputLabel>
+				<p:inputMask id="telefoneCelular"  maxlength="13"
+					autoClear="false"
+					value="#{controladorPaginaCadastroUsuarioExterno.solicitacaoCadastroUsuarioExternoDTO.dddETelefone}"
+					label="Telefone Celular" mask="(99)999999999" style="width: 130px" required="true"/>
+				<p:message for="telefoneCelular"/>
+				
+				<h:outputLabel for="email" value="E-mail: ">
+					<font color="red">*</font>
+				</h:outputLabel>
+				<p:inputText id="email" type="email"  label="E-mail"
+					value="#{controladorPaginaCadastroUsuarioExterno.solicitacaoCadastroUsuarioExternoDTO.email}"
+					maxlength="200" required="true"/>
+				<p:message for="email"/>
+				
+				<h:panelGrid columns="2" columnClasses="ui-grid-col-10">
+					<h:selectBooleanCheckbox id="autorizoRecebimentoInformativo"
+						value="#{controladorPaginaCadastroUsuarioExterno.solicitacaoCadastroUsuarioExternoDTO.autorizoRecebimentoInformativo}" />
+					<h:outputLabel for="autorizoRecebimentoInformativo"
+						value="Autorizo receber informativos" />
+				</h:panelGrid>
+			</h:panelGrid>
+			<div class="ui-fluid">
+				<p:button id="botaoSair" outcome="login" value="Voltar" />
+			</div>
+			<div class="ui-fluid">
+				<p:commandButton id="botaoCadastrar"
+					style="background:#5799C9;color:#fff;"
+					actionListener="#{controladorPaginaCadastroUsuarioExterno.cadastrarUsuarioExterno}"
+					value="Cadastrar" update="painel-cadastro-usuario-externo"/>
+			</div>
+		</p:panel>
+
+	</h:form>
+</h:body>
+</html>

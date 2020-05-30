@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<ui:include src="/WEB-INF/template/android.xhtml" />
+	<f:facet name="first">
+		<title>Login - Mobileasy</title>
+	</f:facet>
+</h:head>
+<h:body>
+	<h:outputStylesheet name="tema.css" />
+	<h:form prependId="false">
+		<p:messages id="mensagem">
+			<p:autoUpdate />
+		</p:messages>
+		<p:panel header="Mobileasy" styleClass="login, ui-fluid">
+			<p:panelGrid id="grid" styleClass="grid-login" columns="1" layout="grid">
+				<p:focus context="grid" rendered="#{facesContext.validationFailed}"/>
+				<p:outputLabel for="login" value="Login" />
+				<p:inputText id="login" required="true"
+					value="#{loginControlador.login}"/>
+				<p:message for="login" />
+				
+				<p:outputLabel for="senha" value="Senha" />
+				<p:password id="senha" required="true"
+					value="#{loginControlador.senha}"
+					styleClass="inplogin" />
+				<p:message for="senha" />
+				
+				<p:outputLabel for="ramal" value="Ramal" />
+				<h:selectOneMenu id="ramal"
+					value="#{loginControlador.ramalDtoSelecionado}" >
+					<f:selectItem itemValue="Selecione uma opção"/>
+					<f:selectItems value="#{loginControlador.ramaisDto}" />
+				</h:selectOneMenu>
+				
+				<div class="botao_azul">
+					<p:commandButton id="acessar" value="Acessar" update="grid" actionListener="#{loginControlador.logar}">
+					</p:commandButton>
+				</div>
+			</p:panelGrid>
+		</p:panel>
+	</h:form>
+</h:body>
+</html>

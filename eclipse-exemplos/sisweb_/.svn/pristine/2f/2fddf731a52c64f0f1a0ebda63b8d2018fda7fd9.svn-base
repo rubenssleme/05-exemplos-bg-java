@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<f:facet name="first">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<meta name="robots" content="noindex,nofollow" />
+		<title>SisWEB - Login</title>
+	</f:facet>
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/css/tema.css" />
+</h:head>
+<h:form>
+	<p:panel header="Login" styleClass="login">
+		<p:messages autoUpdate="true" />
+		<h:panelGrid id="grid" columns="2" style="width:100%;">
+			<h:outputText value="CPF:" />
+			<p:inputMask id="cpf" required="true" value="#{controladorLogin.cpf}"
+				mask="99999999999" label="CPF" styleClass="inplogin" />
+			<h:outputText value="Senha:" />
+			<p:password id="senha" required="true"
+				value="#{controladorLogin.senha}" label="Senha"
+				styleClass="inplogin" />
+		</h:panelGrid>
+		<h:outputLink value="http://www.laramara.org.br" target="_blank">
+			<h:graphicImage value="imagens/logotipo_laramara.png"
+				style="position:absolute;width:58px;height:68px" />
+		</h:outputLink>
+		<h:panelGrid id="botoes" columns="3" styleClass="botoes">
+			<p:button outcome="solicitacaoRecuperacaoSenha"
+				value="Esqueci a senha" icon="ui-icon-locked"
+				styleClass="botao_recuperar" style="float:right;margin-left:10px" />
+			<p:commandButton id="botao" value="Acessar" update="grid"
+				icon="ui-icon-check" validateClient="true"
+				style="float:right;background:#5799C9;color:#fff;font-weight:normal;"
+				actionListener="#{controladorLogin.logar}">
+			</p:commandButton>
+		</h:panelGrid>
+		<h:outputText
+			value="Navegadores de celular compatíveis: Chrome, Firefox e Opera."
+			style="font-size: 14px;" styleClass="msgbrowsers">
+		</h:outputText>
+	</p:panel>
+</h:form>
+
+</html>

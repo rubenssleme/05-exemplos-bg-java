@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<ui:include src="template/android.xhtml" />
+	<f:facet name="first">
+		<title>SisLaraWEB - Login</title>
+	</f:facet>
+</h:head>
+<h:body>
+	<h:form prependId="false">
+		<p:panel id="painel-login" header="Login" styleClass="ui-fluid">
+			<p:focus context="painel-login"/>
+		
+			<p:messages id="mensagem">
+				<p:autoUpdate />
+			</p:messages>
+
+			<h:panelGrid id="grid" columnClasses="label" columns="1"
+				style="width:100%;">
+				<p:focus context="painel-login"
+					rendered="#{facesContext.validationFailed}" />
+				<h:outputLabel for="email" value="E-mail:" />
+				<p:inputMask id="email" type="email" 
+					value="#{controladorLogin.credencialExternaDto.email}" styleClass="inplogin"
+					label="E-mail" required="true"/>
+				<p:message for="email"/>
+					
+				<h:outputLabel for="senha" value="Senha:" />
+				<p:password id="senha" 
+					value="#{controladorLogin.credencialExternaDto.senha}" label="Senha" required="true"/>
+				<p:message for="senha"/>
+					
+				<p:link id="botaoCadastrarUsuarioExterno"
+					outcome="cadastroUsuarioExterno" value="Cadastre-se"
+					icon="ui-icon-locked" styleClass="botao_recuperar"
+					style="float:right;margin-left:10px" />
+				<p:panelGrid id="botoes">
+					<p:button id="botaoRecuperarSenha"
+						outcome="solicitacaoRecuperacaoSenha" value="Esqueci a senha"
+						icon="ui-icon-locked" styleClass="botao_recuperar"
+						style="float:right;margin-left:10px" />
+					<div class="botao_azul">
+						<p:commandButton id="botao" value="Acessar" update="painel-login"
+							icon="ui-icon-check" validateClient="true"
+							style="background:#5799C9;color:#fff;"
+							actionListener="#{controladorLogin.logar}">
+						</p:commandButton>
+					</div>
+				</p:panelGrid>
+				<h:panelGrid columns="2" bodyrows="1">
+					<h:outputLink value="http://laramara.org.br" target="_blank">
+						<h:graphicImage value="imagens/logotipo_laramara.png"
+							alt="Site Laramara" style="width:58px;height:68px" />
+					</h:outputLink>
+				</h:panelGrid>
+				<h:outputText
+					value="Navegadores de celular compatíveis: Chrome, Firefox e Opera."
+					style="float:right; font-size: 14px;" />
+			</h:panelGrid>
+		</p:panel>
+	</h:form>
+</h:body>
+</html>

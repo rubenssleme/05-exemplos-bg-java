@@ -1,0 +1,49 @@
+<ui:composition template="/WEB-INF/template/layout.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+	<ui:define name="titulo">Gerenciamento de usuários</ui:define>
+	<ui:define name="conteudo">
+		<h:form prependId="false">
+			<p:messages id="mensagem">				
+				<p:autoUpdate/>
+			</p:messages>
+			<f:event type="preRenderView" listener="#{contaAcessoControladorGerenciamento.processarMensagemInformacao}"></f:event>
+			
+			<h1>Gerenciamento de usuários</h1>
+			<p:dataTable var="contaAcessoDto"
+				value="#{contaAcessoControladorGerenciamento.contasAcessosDto}" rows="20"
+				paginator="true"
+				paginatorPosition="bottom"
+				paginatorTemplate="{FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+				emptyMessage="Nenhum resultado.">
+				<p:column headerText="Nome">
+					<h:outputText value="#{contaAcessoDto.nome}" />
+				</p:column>
+				<p:column headerText="Login">
+					<h:outputText value="#{contaAcessoDto.login}" />
+				</p:column>
+				<p:column headerText="Nível">
+					<h:outputText value="#{contaAcessoDto.nivelDto}" />
+				</p:column>
+				<p:column headerText="Turno">
+					<h:outputText value="#{contaAcessoDto.turnoDto}"/>
+				</p:column>
+				<p:column headerText="Ativo">
+					<h:outputText value="#{contaAcessoDto.ativo}" converter="conversorDeBooleano"/>
+				</p:column>
+				<p:column headerText="Ação">
+					<p:link outcome="contaAcessoEdicao" value="editar">
+						<f:param name="id" value="#{contaAcessoDto.id}" />
+					</p:link>
+				</p:column>
+			</p:dataTable>
+			<div class="botao_azul">
+				<p:commandButton id="novo" value="Novo" actionListener="#{contaAcessoControladorGerenciamento.novo}">
+				</p:commandButton>
+			</div>
+		</h:form>
+	</ui:define>
+</ui:composition>

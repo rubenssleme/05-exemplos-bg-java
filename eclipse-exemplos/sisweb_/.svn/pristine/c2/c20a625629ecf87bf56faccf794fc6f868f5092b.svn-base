@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<f:facet name="first">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<meta name="robots" content="noindex,nofollow" />
+		<title>SisWEB - Alteração ou Recuperação de Senha</title>
+	</f:facet>
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/css/tema.css" />
+</h:head>
+<f:metadata>
+	<f:viewParam name="chave" value="#{controladorRecuperacaoSenha.chave}" />
+</f:metadata>
+<h:form>
+	<p:panel header="Alteração ou Recuperação de senha" styleClass="login">
+		<p:messages autoUpdate="true" />
+		<h:outputText />
+		<h:panelGrid id="grid" columns="2" cellpadding="3" layout="grid">
+			<h:outputText value="Nova senha: " />
+			<p:password id="novaSenha"
+				value="#{controladorRecuperacaoSenha.novaSenha}" feedback="true"
+				label="Nova senha" required="true" />
+			<h:outputText value="Confirmação da nova senha:" />
+			<p:password id="confirmacaoNovaSenha"
+				value="#{controladorRecuperacaoSenha.confirmacaoNovaSenha}"
+				feedback="false" label="Confirmacao da nova senha" required="true" />
+		</h:panelGrid>
+		<p:button outcome="login" value="Voltar" icon="ui-icon-power" />
+		<p:commandButton value="Confirmar" update="grid" icon="ui-icon-check"
+			validateClient="true"
+			style="margin-right:15px;background:#5799C9;color:#fff;font-weight:normal;float:right;"
+			actionListener="#{controladorRecuperacaoSenha.recuperar}">
+		</p:commandButton>
+	</p:panel>
+</h:form>
+</html>

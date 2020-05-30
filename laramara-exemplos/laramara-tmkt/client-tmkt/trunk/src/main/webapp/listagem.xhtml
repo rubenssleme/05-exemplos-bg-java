@@ -1,0 +1,186 @@
+<ui:composition template="/WEB-INF/template/layout.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+	<ui:define name="titulo">Listagem</ui:define>
+	<ui:define name="conteudo">
+		<h:form prependId="false">
+			<p:messages id="mensagem">
+				<p:autoUpdate />
+			</p:messages>
+
+			<h1>Listagem</h1>
+			<p:panelGrid id="gridContato" columns="1" layout="grid">
+				<p:focus context="grid" rendered="#{facesContext.validationFailed}" />
+
+				<p:outputLabel for="nome" value="Nome" />
+				<h:outputText id="nome"
+					value="#{listagemControlador.distribuicaoContatoDtoSelecionado.contatoDto.nome}" />
+				
+				<p:outputLabel for="cpf" value="CPF" />
+				<h:outputText id="cpf"
+					value="#{listagemControlador.distribuicaoContatoDtoSelecionado.contatoDto.cpf}" />
+						
+				<p:outputLabel for="cep" value="CEP" />
+				<h:outputText id="cep"
+					value="#{listagemControlador.distribuicaoContatoDtoSelecionado.contatoDto.cep.cep}" />
+					
+				<p:outputLabel for="endereco" value="Endereço" />
+				<h:outputText id="endereco"
+					value="#{listagemControlador.distribuicaoContatoDtoSelecionado.contatoDto.enderecoCompleto}" />
+					
+				<p:outputLabel for="bairro" value="Bairro" />
+				<h:outputText id="bairro"
+					value="#{listagemControlador.distribuicaoContatoDtoSelecionado.contatoDto.cep.bairro}" />
+					
+				<p:outputLabel for="municipioEstado" value="Município/Estado" />
+				<h:outputText id="municipioEstado"
+					value="#{listagemControlador.distribuicaoContatoDtoSelecionado.contatoDto.municipioEEstado}" />
+					
+				<p:outputLabel for="email" value="Email" />
+				<h:outputText id="email"
+					value="#{listagemControlador.distribuicaoContatoDtoSelecionado.contatoDto.email}" />
+
+				<h2>Telefones</h2>
+				<p:dataTable id="tabelaTelefones"
+					var="telefoneDto"
+					value="#{listagemControlador.distribuicaoContatoDtoSelecionado.contatoDto.telefonesDto}"
+					paginatorPosition="bottom" emptyMessage="Nenhum resultado.">
+					<p:column headerText="Telefone">
+						<p:commandLink id="ligar" value="#{telefoneDto}"
+							action="#{listagemControlador.ligar}">
+							<f:setPropertyActionListener value="#{telefoneDto}"
+								target="#{listagemControlador.telefoneDtoSelecionado}" />
+						</p:commandLink>
+					</p:column>
+				</p:dataTable>
+
+				<p:poll interval="1"
+					listener="#{listagemControlador.exibirMensagemAtualizada}" ignoreAutoUpdate="true"/>
+				<p:commandButton id="obterContato" value="Obter contato"
+					actionListener="#{listagemControlador.obterContato}" update="gridContato">
+				</p:commandButton>
+				<p:commandButton id="efetuarDoacao" value="Efetuar doação"
+					actionListener="#{listagemControlador.efetuarDoacao}"
+					process="@this" update="grupoInclusaoDoacao"
+					rendered="#{listagemControlador.exibirBotaoEfetuarDoacao}">
+				</p:commandButton>
+			</p:panelGrid>
+		
+
+			<h:panelGroup id="grupoInclusaoDoacao">
+				<p:panelGrid id="gridInclusaoDoacao" columns="1" layout="grid"
+					rendered="#{listagemControlador.modoInclusaoDoacao}">
+					<p:focus context="gridInclusaoDoacao"/>
+
+					<h:panelGroup id="grupoInclusaoValorDetalhado">
+						<p:panelGrid id="gridInclusaoValorDetalhado" columns="1" layout="grid"
+							rendered="#{listagemControlador.modoInclusaoValorDetalhado}">
+							<p:focus context="gridInclusaoValorDetalhado" />
+
+							<h2>Valor a adicionar</h2>
+							<p:outputLabel for="metodo" value="Método" />
+							<h:selectOneMenu id="metodo"
+								value="#{listagemControlador.metodoSelecionado}" required="true">
+								<f:selectItem itemValue="Selecione uma opção"
+									noSelectionOption="true" />
+								<f:selectItems value="#{listagemControlador.metodosDto}" />
+								<f:ajax listener="#{listagemControlador.mudouMetodo}"
+									render="tipoRetirada" />
+							</h:selectOneMenu>
+							<p:message for="metodo" />
+
+							<p:outputLabel for="tipoRetirada" value="Tipo de retirada" />
+							<h:selectOneMenu id="tipoRetirada"
+								value="#{listagemControlador.tipoRetiradaSelecionado}"
+								required="true">
+								<f:selectItem itemValue="Selecione uma opção"
+									noSelectionOption="true" />
+								<f:selectItems value="#{listagemControlador.tiposRetiradasDto}" />
+							</h:selectOneMenu>
+							<p:message for="tipoRetirada" />
+
+							<p:outputLabel for="valor" value="Valor" />
+							<p:inputNumber id="valor"
+								value="#{listagemControlador.valorDoacao}" decimalPlaces="2"
+								required="true">
+							</p:inputNumber>
+							<p:message for="valor" />
+
+							<p:outputLabel for="dataEfetuacao" value="Data de efetuação" />
+							<p:calendar id="dataEfetuacao"
+								value="#{listagemControlador.dataEfetuacao}" showOn="button"
+								pattern="dd/MM/yyyy HH:mm" mask="true" required="true"
+								locale="pt" maskAutoClear="false" />
+							<p:message for="dataEfetuacao" />
+
+							<p:commandButton id="salvarValor" value="Salvar valor"
+								actionListener="#{listagemControlador.salvarValorDetalhado}"
+								process="@this grupoInclusaoValorDetalhado" update="grupoInclusaoDoacao">
+							</p:commandButton>
+							<p:commandButton id="cancelarValor" value="Cancelar valor"
+								actionListener="#{listagemControlador.cancelarValorDetalhado}"
+								process="@this" update="grupoInclusaoValorDetalhado">
+								<p:ajax update="grupoInclusaoValorDetalhado" resetValues="true" />
+							</p:commandButton>
+							<p:defaultCommand target="salvarValor" scope="grupoInclusaoValorDetalhado"/>
+						</p:panelGrid>
+					</h:panelGroup>
+					<h2>Detalhes dos valores</h2>
+					<p:dataTable id="tabelaValores" var="valorDetalhadoDto"
+						value="#{listagemControlador.doacaoDto.valoresDetalhadosDto}"
+						paginatorPosition="bottom" emptyMessage="Nenhum resultado.">
+						<p:column headerText="Valor">
+							<h:outputText value="#{valorDetalhadoDto.valor}">
+								<f:convertNumber type="currency" />
+							</h:outputText>
+						</p:column>
+						<p:column headerText="Método">
+							<h:outputText value="#{valorDetalhadoDto.metodoDto}" />
+						</p:column>
+						<p:column headerText="Tipo de retirada">
+							<h:outputText value="#{valorDetalhadoDto.tipoRetiradaDto}" />
+						</p:column>
+						<p:column headerText="Data de efetuação">
+							<h:outputText value="#{valorDetalhadoDto.dataEfetuacao}">
+								<f:convertDateTime pattern="dd/MM/yyyy HH:mm" />
+							</h:outputText>
+						</p:column>
+						<p:column headerText="Ação">
+							<p:commandLink id="alterar" value="Alterar"
+								action="#{listagemControlador.alterarValorDetalhado}"
+								process="@this" update="gridInclusaoDoacao">
+								<f:setPropertyActionListener value="#{valorDetalhadoDto}"
+									target="#{listagemControlador.valorDetalhadoSelecionadoDto}" />
+							</p:commandLink>
+							<p:spacer width="10" />
+							<p:commandLink id="remover" value="Remover"
+								action="#{listagemControlador.removerValorDetalhado}"
+								process="@this" update="tabelaValores">
+								<f:setPropertyActionListener value="#{valorDetalhadoDto}"
+									target="#{listagemControlador.valorDetalhadoSelecionadoDto}" />
+							</p:commandLink>
+						</p:column>
+					</p:dataTable>
+
+					<p:commandButton id="adicionarValorDetalhado"
+						value="Adicionar novo valor"
+						actionListener="#{listagemControlador.adcionarValorDetalhado}"
+						process="@this" update="grupoInclusaoValorDetalhado">
+					</p:commandButton>
+					<p:commandButton id="salvarDoacao"
+						value="Salvar doação de R$2000,00"
+						actionListener="#{listagemControlador.salvarDoacao}"
+						process="@this" update="grupoInclusaoDoacao gridContato">
+					</p:commandButton>
+					<p:commandButton id="cancelarDoacao" value="Cancelar doação"
+						actionListener="#{listagemControlador.cancelarDoacao}"
+						process="@this" update="grupoInclusaoDoacao">
+					</p:commandButton>
+				</p:panelGrid>
+			</h:panelGroup>
+		</h:form>
+	</ui:define>
+</ui:composition>

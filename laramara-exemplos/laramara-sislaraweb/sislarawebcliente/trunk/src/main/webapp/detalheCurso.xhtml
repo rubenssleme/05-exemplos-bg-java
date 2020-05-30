@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<ui:include src="template/android.xhtml" />
+	<f:facet name="first">
+		<title>#{controladorPaginaDetalheCurso.detalheCursoDto.nomeCurso}</title>
+	</f:facet>
+</h:head>
+<f:metadata>
+	<f:viewParam name="idGrupo"
+		value="#{controladorPaginaDetalheCurso.idGrupoSelecionado}" />
+	<f:viewAction
+		action="#{controladorPaginaDetalheCurso.obterDetalheCursoPorIdGrupo}" />
+</f:metadata>
+<h:body>
+	<h:form prependId="false" id="form">
+		<p:layout fullPage="true">
+			<p:layoutUnit position="center">
+				<p:panel>
+					<p:messages id="mensagem">
+						<p:autoUpdate />
+					</p:messages>
+
+					<h1 id="nomeCurso">#{controladorPaginaDetalheCurso.detalheCursoDto.nomeCurso}</h1>
+					<p>De
+						#{controladorPaginaDetalheCurso.detalheCursoDto.dataCurso}</p>
+					<p:accordionPanel
+						value="#{controladorPaginaDetalheCurso.detalheCursoDto.descricoesEventoDto}"
+						var="descricaoEventoDto" activeIndex="0">
+						<p:tab
+							title="#{descricaoEventoDto.tipoDescricaoEvento.tipoDescricaoEvento}">
+							<h:panelGrid columns="2" cellpadding="5">
+								<p class="quebra-de-linha">#{descricaoEventoDto.conteudo}</p>
+							</h:panelGrid>
+						</p:tab>
+					</p:accordionPanel>
+					<h2>Inscrições</h2>
+					<p>Carga Horária:
+						#{controladorPaginaDetalheCurso.detalheCursoDto.cargaHoraria}</p>
+					<p>Número de Vagas:
+						#{controladorPaginaDetalheCurso.detalheCursoDto.numeroVagas}</p>
+					<p>Inscrições abertas de:
+						#{controladorPaginaDetalheCurso.detalheCursoDto.periodoPreInscricoes}
+					</p>
+					<p>Investimento:
+						#{controladorPaginaDetalheCurso.detalheCursoDto.investimento}</p>
+					<br />
+					<br />
+					<p:commandButton id="botaoInscrever"
+						style="background:#5799C9;color:#fff;"
+						actionListener="#{controladorPaginaDetalheCurso.inscrever}"
+						value="Inscreva-se" />
+					<br />
+					<h2>Outros Cursos</h2>
+					<p:panel style="text-align:center; border-color:white">
+						<p:dataGrid id="outrosCursos" var="detalheCursoDto"
+							emptyMessage="Nenhum curso foi encontrado."
+							value="#{controladorPaginaDetalheCurso.detalhesCursoDtos}"
+							columns="2" layout="grid" rows="12">
+							<p:panel style="text-align:center; height:100%">
+								<h:panelGrid style="width:100%; height:100%">
+									<h3>#{detalheCursoDto.nomeCurso}</h3>
+									<p class="quebra-de-linha">#{controladorPaginaDetalheCurso.obterDescricaoEmenta(detalheCursoDto).getConteudo()}</p>
+
+									<p:button id="botaoSaibaMais"
+										style="background:#5799C9;color:#fff;" outcome="detalheCurso"
+										value="Saiba Mais">
+										<f:param name="idGrupo" value="#{detalheCursoDto.idGrupo}" />
+									</p:button>
+								</h:panelGrid>
+							</p:panel>
+						</p:dataGrid>
+					</p:panel>
+				</p:panel>
+			</p:layoutUnit>
+		</p:layout>
+	</h:form>
+</h:body>
+</html>

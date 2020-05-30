@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<f:facet name="first">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<meta name="robots" content="noindex,nofollow" />
+		<title>SisRH - Administração de Holerites</title>
+	</f:facet>
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/css/tema.css" />
+</h:head>
+<f:event type="preRenderView"
+	listener="#{controladorAdministracaoHolerites.autorizar}" />
+<p:button outcome="administracaoInicialSisRH"
+	value="Voltar para Administração" icon="ui-icon-seek-prev"
+	style="float:right" />
+
+<h:form style="width:218px">
+	<p:remoteCommand name="atualizarListaArquivos" update="arquivos" />
+	<p:dataList id="arquivos"
+		value="#{controladorAdministracaoHolerites.holerites}" var="arquivo"
+		emptyMessage="Nenhum arquivo.">
+		<p:column headerText="Arquivo">
+			<h:outputText value="#{arquivo}" />
+		</p:column>
+		<br></br>
+		<p:column headerText="Remover">
+			<p:commandButton value="Remover" icon="ui-icon-trash"
+				oncomplete="atualizarListaArquivos()">
+				<p:confirm header="Confirmação"
+					message="Tem certeza que deseja excluir o arquivo?"
+					icon="ui-icon-alert" />
+				<p:confirmDialog global="true" showEffect="fade" hideEffect="fade">
+					<p:commandButton value="Sim" type="button"
+						styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />
+					<p:commandButton value="Não" type="button"
+						styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+				</p:confirmDialog>
+				<f:setPropertyActionListener value="#{arquivo}"
+					target="#{controladorAdministracaoHolerites.excluirArquivo}" />
+			</p:commandButton>
+		</p:column>
+	</p:dataList>
+</h:form>
+<h:form id="formUploadHolerite" enctype="multipart/form-data">
+	<p:fileUpload id="uploadHolerites"
+		fileUploadListener="#{controladorAdministracaoHolerites.gravarHolerite}"
+		mode="advanced" update="messages" label="Adicionar Holerite"
+		auto="true" sizeLimit="99999999" allowTypes="/(\.|\/)(pdf)$/"
+		oncomplete="atualizarListaArquivos()" process="@this"
+		showButtons="false" />
+	<p:growl id="messages" showDetail="true" />
+</h:form>
+</html>

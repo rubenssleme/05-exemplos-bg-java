@@ -1,0 +1,120 @@
+<ui:composition template="/template/layout.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+	<ui:define name="titulo">Perfil</ui:define>
+	<ui:define name="conteudo">
+		<h:form prependId="false">
+			<p:messages id="mensagem">
+				<p:autoUpdate />
+			</p:messages>
+
+			<p:panelGrid id="painel-edicao-usuario-externo" columns="1"
+				columnClasses="label" style="width:100%" layout="grid"
+				styleClass="ui-fluid">
+				<p:focus context="painel-edicao-usuario-externo" />
+
+				<h2>Informações Pessoais</h2>
+				<h:panelGrid id="painel-informacoes-pessoais">
+					<h:outputLabel for="nomeCompleto" value="Nome Completo*: " />
+					<p:inputText id="nomeCompleto"
+						value="#{controladorPaginaPerfil.usuarioExternoDto.nomeCompleto}"
+						label="Nome Completo" required="true" />
+					<p:message for="nomeCompleto" />
+
+					<h:outputLabel for="dataNascimento" value="Data de Nascimento*: " />
+					<p:inputMask id="dataNascimento"
+						value="#{controladorPaginaPerfil.usuarioExternoDto.dataNascimento}"
+						label="Data de Nascimento" mask="99/99/9999" style="width: 100px"
+						required="true" />
+					<p:message for="dataNascimento" />
+
+					<h:outputLabel for="cpf" value="CPF*: " />
+					<p:inputMask id="cpf"
+						value="#{controladorPaginaPerfil.usuarioExternoDto.cpf}"
+						label="CPF" style="width: 120px" mask="99999999999"
+						required="true" />
+					<p:message for="cpf" />
+
+					<h:outputLabel for="rgRne" value="RG / RNE*: " />
+					<p:inputText id="rgRne"
+						value="#{controladorPaginaPerfil.usuarioExternoDto.rgRne}"
+						label="RG / RNE" style="width: 120px" maxlength="15"
+						required="true" />
+					<p:message for="rgRne" />
+				</h:panelGrid>
+
+				<h2>Dados Para Contato</h2>
+				<h:panelGrid id="painel-dados-para-contato">
+					<h:outputLabel for="telefoneCelular" value="Telefone Celular*" />
+					<p:inputMask id="telefoneCelular" maxlength="13"
+						value="#{controladorPaginaPerfil.usuarioExternoDto.dddETelefoneCelular}"
+						mask="(99)999999999" style="width: 130px" label="Telefone Celular"
+						required="true" />
+					<p:message for="telefoneCelular" />
+
+					<h:outputLabel for="outroTelefone" value="Outro Telefone" />
+					<p:inputMask id="outroTelefone" maxlength="13"
+						value="#{controladorPaginaPerfil.usuarioExternoDto.outroTelefone}"
+						mask="(99)999999999" style="width: 130px" label="Outro Telefone">
+					</p:inputMask>
+
+					<h:outputLabel for="email" value="E-mail : " />
+					<p:inputText id="email"
+						value="#{controladorPaginaPerfil.usuarioExternoDto.email}"
+						readonly="true" label="E-mail" />
+
+					<h:panelGrid columns="2" columnClasses="label, value">
+						<h:selectBooleanCheckbox id="autorizoRecebimentoInformativo"
+							value="#{controladorPaginaPerfil.usuarioExternoDto.autorizoRecebimentoInformativo}" />
+						<h:outputLabel for="autorizoRecebimentoInformativo"
+							value="Autorizo receber informativos" />
+					</h:panelGrid>
+				</h:panelGrid>
+
+				<h2>Endereço Residencial</h2>
+				<ui:include src="/endereco.xhtml"></ui:include>
+
+				<h2>Dados sobre a deficiência</h2>
+				<h:panelGrid id="painel-sobre-deficiencia">
+					<h:panelGrid columns="2" columnClasses="label, value">
+						<h:selectBooleanCheckbox id="ePessoaComDeficiencia"
+							value="#{controladorPaginaPerfil.usuarioExternoDto.ePessoaComDeficiencia}">
+							<f:ajax event="click" onevent="PF('painelDeficiencia').toggle()" />
+						</h:selectBooleanCheckbox>
+						<h:outputLabel for="ePessoaComDeficiencia"
+							value="Sou pessoa com deficiência" />
+					</h:panelGrid>
+
+					<p:panel widgetVar="painelDeficiencia" toggleable="true"
+						collapsed="#{!controladorPaginaPerfil.usuarioExternoDto.ePessoaComDeficiencia}">
+						<h:panelGrid columns="2" columnClasses="label, value">
+							<h:selectBooleanCheckbox id="possuiBaixaVisao"
+								value="#{controladorPaginaPerfil.usuarioExternoDto.possuiBaixaVisao}" />
+							<h:outputLabel for="possuiBaixaVisao" value="Possuo baixa visão" />
+
+							<h:selectBooleanCheckbox id="possuiCegueira"
+								value="#{controladorPaginaPerfil.usuarioExternoDto.possuiCegueira}" />
+							<h:outputLabel for="possuiCegueira" value="Possuo cegueira" />
+						</h:panelGrid>
+						<h:panelGrid columns="1" columnClasses="label">
+							<h:outputLabel for="outraDeficiencia"
+								value="Possui outra deficiência? Qual? " />
+							<p:inputText id="outraDeficiencia"
+								value="#{controladorPaginaPerfil.usuarioExternoDto.outraDeficiencia}"
+								label="Possui outra deficiência? Qual?" size="50" />
+						</h:panelGrid>
+					</p:panel>
+				</h:panelGrid>
+
+				<br />
+				<p:commandButton id="botaoSalvar" value="Salvar"
+					actionListener="#{controladorPaginaPerfil.editarUsuarioExterno}"
+					style="background:#5799C9;color:#fff;" process="@form"
+					update="@form" />
+			</p:panelGrid>
+		</h:form>
+	</ui:define>
+</ui:composition>

@@ -1,0 +1,1 @@
+﻿INSERT INTO usuario_sistemas(cpf, descricao) VALUES ('13204301800', 'SISLIVROS_ADMINISTRACAO');

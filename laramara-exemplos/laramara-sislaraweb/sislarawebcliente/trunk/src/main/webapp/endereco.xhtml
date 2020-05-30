@@ -1,0 +1,68 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+	<p:remoteCommand name="atualizaEndereco"
+		actionListener="#{controladorPaginaEndereco.consultarEnderecoPorCep()}"
+		update="endereco bairro uf municipio" process="@this cep" />
+
+	<h:outputLabel for="cep" value="CEP:" />
+	<p:inputMask id="cep" autoClear="false" mask="99999999" maxlength="8"
+		value="#{controladorPaginaEndereco.enderecoDto.cep}"
+		label="CEP" required="true" size="6">
+		<p:ajax event="keyup" update="@none"
+			oncomplete="atualizaEndereco()" />
+	</p:inputMask>
+	<p:message for="cep" />
+
+	<h:outputLabel for="endereco" value="Endereço:" />
+	<p:inputText id="endereco"
+		value="#{controladorPaginaEndereco.enderecoDto.endereco}"
+		label="Endereço" required="true" maxlength="60">
+	</p:inputText>
+	<p:message for="endereco" />
+
+	<h:outputLabel for="numero" value="Número*: " />
+	<p:inputText id="numero"
+		value="#{controladorPaginaEndereco.enderecoDto.numero}"
+		label="Número" maxlength="10" size="10" required="true">
+	</p:inputText>
+	<p:message for="numero" />
+
+	<h:outputLabel for="complemento" value="Complemento: " />
+	<p:inputText id="complemento"
+		value="#{controladorPaginaEndereco.enderecoDto.complemento}"
+		label="Complemento" maxlength="50">
+	</p:inputText>
+
+	<h:outputLabel for="bairro" value="Bairro*: " />
+	<p:inputText id="bairro"
+		value="#{controladorPaginaEndereco.enderecoDto.bairro}"
+		label="Bairro" required="true">
+	</p:inputText>
+	<p:message for="bairro" />
+
+	<h:outputLabel for="uf" value="UF*: " />
+	<h:selectOneMenu id="uf" label="UF"
+		value="#{controladorPaginaEndereco.ufSelecionada}" required="true">
+		<f:selectItem itemValue="Selecione" itemLabel="Selecione"
+			noSelectionOption="true" />
+		<f:selectItems value="#{controladorPaginaEndereco.ufs}" />
+		<p:ajax event="change" update="municipio"
+			listener="#{controladorPaginaEndereco.carregarMunicipiosAoMudarUf}" />
+	</h:selectOneMenu>
+	<p:message for="uf" />
+
+	<h:outputLabel for="municipio" value="Município*: " />
+	<h:selectOneMenu id="municipio" style="width:200px" label="Município"
+		value="#{controladorPaginaEndereco.municipioSelecionado}"
+		required="true">
+		<f:selectItem itemValue="Selecione" itemLabel="Selecione"
+			noSelectionOption="true" />
+		<f:selectItems value="#{controladorPaginaEndereco.municipios}" />
+	</h:selectOneMenu>
+	<p:message for="municipio" />
+
+</ui:composition>
