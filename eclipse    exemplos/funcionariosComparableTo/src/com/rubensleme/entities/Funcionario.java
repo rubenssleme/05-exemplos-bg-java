@@ -31,5 +31,6 @@ public class Funcionario implements Comparable<Funcionario> {
         return nome.compareTo(outroFuncionario.getNome());
         //return salario.compareTo(outroFuncionario.getSalario()); // Comparação por Salario.
         //return -salario.compareTo(outroFuncionario.getSalario());// Ordem decrescente por Salario.
+
     }
 }
