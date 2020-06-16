@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<f:facet name="first">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<meta name="robots" content="noindex,nofollow" />
+		<title>SisRH - Holerites</title>
+	</f:facet>
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/css/tema.css" />
+</h:head>
+<f:event type="preRenderView"
+	listener="#{controladorHolerites.autorizar}" />
+
+<h:form>
+	<p:panel header="Holerites" styleClass="box_hol">
+		<h:outputText value="CLIQUE NO LINK PARA BAIXAR OS HOLERITES."
+			styleClass="ui-widget" style="text-transform:lowercase;" />
+		<p:growl id="growl" sticky="false" showDetail="true" />
+		<p:dataTable var="holerite" value="#{controladorHolerites.holerites}">
+
+			<p:column headerText="Holerites" styleClass="ui-widget">
+				<p:commandLink
+					actionListener="#{controladorHolerites.downloadArquivo}"
+					value="#{holerite}" ajax="false" validateClient="true">
+					<f:param name="holerite" value="#{holerite}" />
+					<p:fileDownload
+						value="#{controladorHolerites.holeriteParaDownload}" />
+				</p:commandLink>
+			</p:column>
+		</p:dataTable>
+
+		<p:commandButton value="Sair" icon="ui-icon-power"
+			actionListener="#{controladorHolerites.sair}"
+			style="float:right;background:#5799C9;color:#fff;font-weight:normal;margin-top: 20px;">
+		</p:commandButton>
+		<p:panelGrid columns="2" styleClass="adobe_reader">
+			<h:outputText
+				value="Para visualizar seus holerites, baixe o programa Adobe Reader."
+				styleClass="ui-widget">
+			</h:outputText>
+			<h:outputLink value="http://get.adobe.com/br/reader/" target="_blank">
+				<h:graphicImage value="../imagens/get_adobe_reader.png" />
+			</h:outputLink>
+		</p:panelGrid>
+	</p:panel>
+</h:form>
+</html>

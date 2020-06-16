@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<f:facet name="first">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<meta name="robots" content="noindex,nofollow" />
+		<title>SisRH - Administração de Usuários</title>
+	</f:facet>
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/css/tema.css" />
+</h:head>
+<f:event type="preRenderView"
+	listener="#{controladorAdministracaoUsuarios.autorizar}" />
+<p:button outcome="administracaoInicialSisRH"
+	value="Voltar para Administração" icon="ui-icon-seek-prev"
+	style="float:right" />
+<p:commandButton value="Adicionar" icon="ui-icon-plus"
+	resetValues="true" update=":edicaoFormDialog:usuarioDetalhe"
+	actionListener="#{controladorAdministracaoUsuarios.prepararInclusaoUsuario}"
+	oncomplete="PF('usuarioDialog').show()">
+</p:commandButton>
+<h:form>
+	<p:remoteCommand name="atualizarListaUsuarios" update="usuarios" />
+	<p:dataTable id="usuarios" var="usuario"
+		value="#{controladorAdministracaoUsuarios.todosUsuarios}"
+		style="margin-bottom:40px">
+		<f:facet name="header">Usuários Cadastrados</f:facet>
+		<p:column headerText="CPF">
+			<h:outputText value="#{usuario.cpf}" />
+		</p:column>
+		<p:column headerText="Nome">
+			<h:outputText value="#{usuario.nome}" />
+		</p:column>
+		<p:column headerText="Email">
+			<h:outputText value="#{usuario.email}" />
+		</p:column>
+		<p:column headerText="Administrador">
+			<h:outputText value="#{usuario.statusAdministradorSisRh}" />
+		</p:column>
+		<p:column headerText="Alterar">
+			<p:commandButton update=":edicaoFormDialog:usuarioDetalhe"
+				oncomplete="PF('usuarioDialog').show()" icon="ui-icon-pencil"
+				resetValues="true">
+				<f:setPropertyActionListener value="#{usuario}"
+					target="#{controladorAdministracaoUsuarios.usuarioSelecionado}" />
+			</p:commandButton>
+		</p:column>
+	</p:dataTable>
+</h:form>
+<h:form id="edicaoFormDialog">
+	<p:dialog header="Editar Usuário" widgetVar="usuarioDialog"
+		modal="true" showEffect="fade" hideEffect="fade"
+		onHide="atualizarListaUsuarios()" resizable="false">
+		<p:outputPanel id="usuarioDetalhe">
+			<p:messages autoUpdate="true" id="msg" />
+			<p:panelGrid columns="2">
+				<h:outputText value="Ativo" />
+				<p:selectBooleanCheckbox
+					value="#{controladorAdministracaoUsuarios.usuarioSelecionado.ativo}" />
+				<h:outputText value="Nome" />
+				<h:outputText
+					value="#{controladorAdministracaoUsuarios.usuarioSelecionado.nome}" />
+				<h:outputText value="CPF" />
+				<p:inputMask id="cpf" required="true" label="CPF"
+					value="#{controladorAdministracaoUsuarios.usuarioSelecionado.cpf}"
+					mask="99999999999" />
+				<h:outputText value="Email" />
+				<p:inputText id="email" label="Email"
+					value="#{controladorAdministracaoUsuarios.usuarioSelecionado.email}"
+					style="width:500px">
+					<f:validateLength minimum="5" maximum="200" />
+				</p:inputText>
+				<h:outputText value="Senha" />
+				<p:password id="senha"
+					value="#{controladorAdministracaoUsuarios.usuarioSelecionado.senha}" />
+				<h:outputText value="Administrador" />
+				<p:selectBooleanCheckbox
+					value="#{controladorAdministracaoUsuarios.usuarioSelecionado.administradorSisRh}" />
+				<p:commandButton value="Salvar" icon="ui-icon-check"
+					action="#{controladorAdministracaoUsuarios.editarUsuarioSelecionado}"
+					oncomplete="if (!args.validationFailed) { setTimeout(function(){PF('usuarioDialog').hide();},300);}"
+					validateClient="true">
+				</p:commandButton>
+			</p:panelGrid>
+		</p:outputPanel>
+	</p:dialog>
+</h:form>
+</html>

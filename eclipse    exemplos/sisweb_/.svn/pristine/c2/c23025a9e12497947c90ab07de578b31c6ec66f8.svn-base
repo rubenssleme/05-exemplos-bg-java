@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<f:facet name="first">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<meta name="robots" content="noindex,nofollow" />
+		<title>SisLivros - Administração de Livros</title>
+	</f:facet>
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/css/tema.css" />
+</h:head>
+<f:event type="preRenderView"
+	listener="#{controladorAdministracaoLivros.autorizar}" />
+<p:button outcome="administracaoInicialSisLivros"
+	value="Voltar para Administração" icon="ui-icon-seek-prev"
+	style="float:right" />
+<p:commandButton value="Adicionar" icon="ui-icon-plus"
+	resetValues="true" update=":edicaoFormDialog:LivroDetalhe"
+	actionListener="#{controladorAdministracaoLivros.prepararInclusaoLivro}"
+	oncomplete="PF('livroDialog').show()">
+</p:commandButton>
+<p:commandButton value="Pesquisar" icon="ui-icon-search"
+	resetValues="true" oncomplete="PF('pesquisaLivroDialog').show()">
+</p:commandButton>
+<p:commandButton value="Pesquisa Geral" icon="ui-icon-search"
+	resetValues="true" oncomplete="PF('pesquisaGeralLivroDialog').show()">
+</p:commandButton>
+<p:commandButton value="Listar Todos" icon="ui-icon-arrowrefresh-1-s"
+	resetValues="true" oncomplete="atualizarListaLivros()"
+	actionListener="#{controladorAdministracaoLivros.prepararListagemLivros}"
+	action="#{controladorAdministracaoLivros.listarTodos}">
+</p:commandButton>
+<h:form>
+	<p:remoteCommand name="atualizarListaLivros" update="Livros" />
+	<p:dataTable id="Livros" paginator="true" rows="10"
+		paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+		rowsPerPageTemplate="5,10,15" scrollable="true"
+		value="#{controladorAdministracaoLivros.livros}" var="Livro"
+		style="margin-bottom:40px">
+
+		<f:facet name="header">Livros Cadastrados</f:facet>
+		<p:column headerText="Alterar" style="width:80px">
+			<p:commandButton update=":edicaoFormDialog:LivroDetalhe"
+				oncomplete="PF('livroDialog').show()" icon="ui-icon-pencil"
+				resetValues="true">
+				<f:setPropertyActionListener value="#{Livro}"
+					target="#{controladorAdministracaoLivros.livroSelecionado}" />
+			</p:commandButton>
+		</p:column>
+		<p:column headerText="ID" sortBy="#{Livro.id}" style="width:45px">
+			<h:outputText value="#{Livro.id}" />
+		</p:column>
+		<p:column headerText="Titulo" sortBy="#{Livro.titulo}"
+			style="width:250px">
+			<h:outputText value="#{Livro.titulo}" />
+		</p:column>
+		<p:column headerText="Autor" sortBy="#{Livro.autor}"
+			style="width:300px">
+			<h:outputText value="#{Livro.autor}" />
+		</p:column>
+		<p:column headerText="Assunto" sortBy="#{Livro.assunto}"
+			style="width:250px">
+			<h:outputText value="#{Livro.assunto}" />
+		</p:column>
+		<p:column headerText="Local Armazenado"
+			sortBy="#{Livro.localArmazenado}" style="width:180px">
+			<h:outputText value=" #{Livro.localArmazenado}" />
+		</p:column>
+		<p:column headerText="AAAT" sortBy="#{Livro.aaat}" style="width:85px">
+			<h:outputText value="#{Livro.aaat}" />
+		</p:column>
+		<p:column headerText="Volume" sortBy="#{Livro.volume}"
+			style="width:100px">
+			<h:outputText value="#{Livro.volume}" />
+		</p:column>
+		<p:column headerText="Tipo" sortBy="#{Livro.tipo}" style="width:150px">
+			<h:outputText value="#{Livro.tipo}" />
+		</p:column>
+		<p:column headerText="Status" sortBy="#{Livro.status}"
+			style="width:120px">
+			<h:outputText value="#{Livro.ativo}" />
+		</p:column>		
+	</p:dataTable>
+</h:form>
+<h:form id="edicaoFormDialog">
+	<p:dialog header="Editar Livro" widgetVar="livroDialog" modal="true"
+		showEffect="fade" hideEffect="fade" onHide="atualizarListaLivros()"
+		resizable="false">
+		<p:outputPanel id="LivroDetalhe">
+			<p:messages autoUpdate="true" id="msg" />
+			<p:panelGrid columns="2">
+				<h:outputText value="Titulo" />
+				<p:inputMask id="titulo" label="Titulo"
+					value="#{controladorAdministracaoLivros.livroSelecionado.titulo}" />
+				<h:outputText value="Autor" />
+				<p:inputMask id="autor" label="Autor"
+					value="#{controladorAdministracaoLivros.livroSelecionado.autor}" />
+				<h:outputText value="Assunto" />
+				<p:inputMask id="assunto" label="Assunto"
+					value="#{controladorAdministracaoLivros.livroSelecionado.assunto}" />
+				<h:outputText value="Local Armazenado" />
+				<p:inputMask id="localArmazenado" label="Local Armazenado"
+					value="#{controladorAdministracaoLivros.livroSelecionado.localArmazenado}" />
+				<h:outputText value="AAAT" />
+				<p:inputMask id="aaat" label="AAAT"
+					value="#{controladorAdministracaoLivros.livroSelecionado.aaat}" />
+				<h:outputText value="Volume" />
+				<p:inputMask id="volume" label="Volume"
+					value="#{controladorAdministracaoLivros.livroSelecionado.volume}" />
+				<h:outputText value="Tipo" />
+				<p:selectOneMenu id="tipos" editable="true"
+					value="#{controladorAdministracaoLivros.livroSelecionado.tipo}">
+					<f:selectItems value="#{controladorAdministracaoLivros.tipos}" />
+				</p:selectOneMenu>
+				<h:outputText value="Status" />
+				<p:selectBooleanCheckbox
+					value="#{controladorAdministracaoLivros.livroSelecionado.status}" />
+				<p:commandButton value="Salvar" icon="ui-icon-check"
+					action="#{controladorAdministracaoLivros.editarLivroSelecionado}"
+					oncomplete="if (!args.validationFailed) { setTimeout(function(){PF('livroDialog').hide();},300);}"
+					validateClient="true">
+				</p:commandButton>
+			</p:panelGrid>
+		</p:outputPanel>
+	</p:dialog>
+</h:form>
+<h:form id="pesquisaFormDialog">
+	<p:dialog header="Pesquisar" widgetVar="pesquisaLivroDialog"
+		modal="true" showEffect="fade" hideEffect="fade"
+		onHide="atualizarListaLivros()" resizable="false">
+		<p:outputPanel id="livroParametro">
+			<p:messages autoUpdate="true" id="msg" />
+			<p:panelGrid columns="2">				
+				<h:outputText value="Categoria" />
+				<p:selectOneMenu id="categorias" style="width:200px"
+					value="#{controladorAdministracaoLivros.categoriaSelecionada}">
+					<f:selectItems value="#{controladorAdministracaoLivros.categorias}" />
+				</p:selectOneMenu>
+				<h:outputText value="Status" />
+				<p:selectBooleanCheckbox 
+					value="#{controladorAdministracaoLivros.especificacaoPesquisaLivroDto.status}" />
+				<h:outputText value="Parametro" />
+				<p:inputMask id="parametro" required="true" label="Parametro"
+					value="#{controladorAdministracaoLivros.parametro}" />
+				<p:commandButton value="Pesquisar" icon="ui-icon-search"
+					action="#{controladorAdministracaoLivros.pesquisarComParametro}"
+					oncomplete="if (!args.validationFailed) PF('pesquisaLivroDialog').hide()"
+					validateClient="true">
+				</p:commandButton>
+			</p:panelGrid>
+		</p:outputPanel>
+	</p:dialog>
+</h:form>
+<h:form id="pesquisaGeralFormDialog">
+	<p:dialog header="Pesquisa Geral" widgetVar="pesquisaGeralLivroDialog"
+		modal="true" showEffect="fade" hideEffect="fade"
+		onHide="atualizarListaLivros()" resizable="false">
+		<p:outputPanel id="livroParametro">
+			<p:messages autoUpdate="true" id="msg" />
+			<p:panelGrid columns="2">
+				<h:outputText value="Parametro Geral" />
+				<p:inputMask id="parametroGeral" required="true" label="Parametro Geral"
+					value="#{controladorAdministracaoLivros.parametro}" />
+				<p:commandButton value="Pesquisar" icon="ui-icon-search"
+					action="#{controladorAdministracaoLivros.pesquisarGeral}"
+					oncomplete="if (!args.validationFailed) PF('pesquisaGeralLivroDialog').hide()"
+					validateClient="true">
+				</p:commandButton>
+			</p:panelGrid>
+		</p:outputPanel>
+	</p:dialog>
+</h:form>
+</html>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<f:facet name="first">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<meta name="robots" content="noindex,nofollow" />
+		<title>SisWEB - Menu de Sistemas</title>
+	</f:facet>
+	<link type="text/css" rel="stylesheet"
+		href="#{request.contextPath}/css/tema.css" />
+</h:head>
+<f:event type="preRenderView"
+	listener="#{controladorSistema.autorizar}" />
+<h:form>
+	<p:panel header="Menu de Sistemas" styleClass="login">
+		<p:messages autoUpdate="true" />
+		<h:outputText value="" />
+		<p:outputLabel for="menu" value="Escolha um sistema: " />
+		<h:panelGrid id="grid">
+			<p:selectOneMenu id="menu" style="width:400px"
+				value="#{controladorSistema.sistemaSelecionado}">
+				<f:selectItems value="#{controladorSistema.sistemas}" />
+			</p:selectOneMenu>
+		</h:panelGrid>
+		<h:panelGrid id="botoes" columns="1" styleClass="botoes">
+			<p:commandButton id="botao" value="Acessar" icon="ui-icon-check"
+				style="float:right;background:#5799C9;color:#fff;font-weight:normal;"
+				actionListener="#{controladorSistema.acessar}"/>
+		</h:panelGrid>
+	</p:panel>
+</h:form>
+
+</html>
