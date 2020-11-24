@@ -11,7 +11,7 @@ public class TesteChar {
 		//Scanner c = new Scanner(System.in);
 		System.out.println("Tecle por favor:");
 		tecla = (char) 78;
-		tecla13 = (char) 166;
+		tecla13 = (char) 13;
 		//int teclaint = int tecla;
 		System.out.println("Voce teclou:" + tecla + "-" + tecla13 );
 
