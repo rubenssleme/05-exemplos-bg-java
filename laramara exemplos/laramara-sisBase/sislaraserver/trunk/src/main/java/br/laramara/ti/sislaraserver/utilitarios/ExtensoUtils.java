@@ -1,4 +1,4 @@
-package br.com.rubensleme.utilitarios;
+package br.laramara.ti.sislaraserver.utilitarios;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;

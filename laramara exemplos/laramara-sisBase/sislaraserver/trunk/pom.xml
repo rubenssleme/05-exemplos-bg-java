@@ -1,6 +1,5 @@
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.laramara.ti</groupId>
 	<artifactId>sislaraserver</artifactId>
@@ -72,46 +71,46 @@
 					</execution>
 				</executions>
 			</plugin>
-		    <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>1.5.9.RELEASE</version>
-                <configuration>
-                    <fork>true</fork>
-                    <mainClass>${start-class}</mainClass>
-                </configuration>
-                  <executions>
-                    <execution>
-                      <goals>
-                        <goal>repackage</goal>
-                      </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-              <artifactId>maven-assembly-plugin</artifactId>
-              <version>3.1.0</version>
-              <configuration>
-                <archive>
-                  <manifest>
-                    <addClasspath>true</addClasspath>
-                    <mainClass>${start-class}</mainClass>
-                  </manifest>
-                </archive>
-                <descriptorRefs>
-                  <descriptorRef>jar-with-dependencies</descriptorRef>
-                </descriptorRefs>
-              </configuration>
-              <executions>
-                <execution>
-                  <id>assemble-all</id>
-                  <phase>package</phase>
-                  <goals>
-                    <goal>single</goal>
-                  </goals>
-                </execution>
-              </executions>
-            </plugin>
+				<configuration>
+					<fork>true</fork>
+					<mainClass>${start-class}</mainClass>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>${start-class}</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
+				<executions>
+					<execution>
+						<id>assemble-all</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 		<pluginManagement>
 			<plugins>
@@ -183,17 +182,17 @@
 								<configuration>
 									<tasks>
 										<delete
-											file="${project.build.outputDirectory}/application.properties" />
+												file="${project.build.outputDirectory}/application.properties" />
 										<delete
-											file="${project.build.outputDirectory}/application.producao.properties" />
+												file="${project.build.outputDirectory}/application.producao.properties" />
 										<copy file="src/main/resources/application.producao.properties"
-											tofile="${project.build.outputDirectory}/application.properties" />
+											  tofile="${project.build.outputDirectory}/application.properties" />
 										<delete
-											file="${project.build.outputDirectory}/log4j2.xml" />
+												file="${project.build.outputDirectory}/log4j2.xml" />
 										<delete
-											file="${project.build.outputDirectory}/log4j2.producao.xml" />
+												file="${project.build.outputDirectory}/log4j2.producao.xml" />
 										<copy file="src/main/resources/log4j2.producao.xml"
-											tofile="${project.build.outputDirectory}/log4j2.xml" />
+											  tofile="${project.build.outputDirectory}/log4j2.xml" />
 									</tasks>
 								</configuration>
 							</execution>
@@ -206,7 +205,7 @@
 						<configuration>
 							<skipTests>true</skipTests>
 						</configuration>
-				    </plugin>
+					</plugin>
 				</plugins>
 			</build>
 		</profile>
@@ -215,6 +214,14 @@
 		<repository>
 			<id>JBoss</id>
 			<url>https://repository.jboss.org/nexus/content/groups/public/</url>
+		</repository>
+		<repository>
+			<id>spring-milestone-repo</id>
+			<url>http://repo.spring.io/milestone/</url>
+		</repository>
+		<repository>
+			<id>maven2</id>
+			<url>http://repo.maven.apache.org/maven2.</url>
 		</repository>
 	</repositories>
 	<dependencies>
@@ -234,30 +241,34 @@
 			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
+			<!-- Testing starter -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
-			<version>${spring.boot.version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-logging</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
+		<!--		<dependency>-->
+		<!--			<groupId>org.springframework.boot</groupId>-->
+		<!--			<artifactId>spring-boot-starter</artifactId>-->
+		<!--			<version>${spring.boot.version}</version>-->
+		<!--			<exclusions>-->
+		<!--				<exclusion>-->
+		<!--					<groupId>org.springframework.boot</groupId>-->
+		<!--					<artifactId>spring-boot-starter-logging</artifactId>-->
+		<!--				</exclusion>-->
+		<!--			</exclusions>-->
+		<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>${spring.boot.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-undertow</artifactId>
-			<version>${spring.boot.version}</version>
+			<!--			<version>${spring.boot.version}</version>-->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-test</artifactId>
-			<version>${spring.boot.version}</version>
+			<!--			<version>${spring.boot.version}</version>-->
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -319,11 +330,11 @@
 			<artifactId>jaybird-jdk18</artifactId>
 			<version>${firebird.jdbc.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>net.sf.jasperreports</groupId>
-			<artifactId>jasperreports</artifactId>
-			<version>${jasperreports.version}</version>
-		</dependency>
+		<!--		<dependency>-->
+		<!--			<groupId>net.sf.jasperreports</groupId>-->
+		<!--			<artifactId>jasperreports</artifactId>-->
+		<!--			<version>${jasperreports.version}</version>-->
+		<!--		</dependency>-->
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
@@ -377,28 +388,37 @@
 			<artifactId>mail</artifactId>
 			<version>${mail.version}</version>
 		</dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
 		<dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-1.2-api</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
-        <dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-1.2-api</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>${slf4.log4j12.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 	</dependencies>
-<properties>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.8.RELEASE</version>
+	</parent>
+	<properties>
 		<start-class>br.laramara.ti.sislaraserver.AplicacaoSisLaraServer</start-class>
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
 		<sislaracommons.version>1.0.0</sislaracommons.version>

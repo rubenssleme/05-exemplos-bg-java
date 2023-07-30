@@ -7,24 +7,24 @@ import java.util.UUID;
 import org.apache.commons.io.FileUtils;
 
 import br.laramara.ti.sislaraserver.utilitarios.Configuracao;
-import net.sf.jasperreports.engine.export.JRXlsExporter;
-import net.sf.jasperreports.export.SimpleExporterInput;
-import net.sf.jasperreports.export.SimpleOutputStreamExporterOutput;
-import net.sf.jasperreports.export.SimpleXlsReportConfiguration;
+//import net.sf.jasperreports.engine.export.JRXlsExporter;
+//import net.sf.jasperreports.export.SimpleExporterInput;
+//import net.sf.jasperreports.export.SimpleOutputStreamExporterOutput;
+//import net.sf.jasperreports.export.SimpleXlsReportConfiguration;
 
 public class ExportadorXLS extends Exportador {
 
-	@Override
-	public byte[] exportar(ModeloRelatorio modeloRelatorio,
-			Map<String, Object> argumentos) throws Exception {
-		String nomeArquivo = obterNomeArquivo();
-		JRXlsExporter exporterXLS = new JRXlsExporter();
-		exporterXLS.setExporterInput(new SimpleExporterInput(obterJasperPrint(modeloRelatorio, argumentos)));
-		exporterXLS.setConfiguration(new SimpleXlsReportConfiguration());
-		exporterXLS.setExporterOutput(new SimpleOutputStreamExporterOutput(nomeArquivo));
-		exporterXLS.exportReport();
-		return obterDadosELimpar(nomeArquivo);
-	}
+//	@Override
+//	public byte[] exportar(ModeloRelatorio modeloRelatorio,
+//			Map<String, Object> argumentos) throws Exception {
+//		String nomeArquivo = obterNomeArquivo();
+//		JRXlsExporter exporterXLS = new JRXlsExporter();
+//		exporterXLS.setExporterInput(new SimpleExporterInput(obterJasperPrint(modeloRelatorio, argumentos)));
+//		exporterXLS.setConfiguration(new SimpleXlsReportConfiguration());
+//		exporterXLS.setExporterOutput(new SimpleOutputStreamExporterOutput(nomeArquivo));
+//		exporterXLS.exportReport();
+//		return obterDadosELimpar(nomeArquivo);
+//	}
 
 	private String obterNomeArquivo() {
 		return new Configuracao()
@@ -37,5 +37,10 @@ public class ExportadorXLS extends Exportador {
 		FileUtils.deleteQuietly(new File(nomeArquivo));
 
 		return retorno;
+	}
+
+	@Override
+	public byte[] exportar(ModeloRelatorio modeloRelatorio, Map<String, Object> argumentos) throws Exception {
+		return new byte[0];
 	}
 }
